@@ -1,0 +1,73 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:iavm="clr-namespace:VisualPartSAOD.ViewModel.Lab2"
+             xmlns:lvc="using:LiveChartsCore.SkiaSharpView.Avalonia"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="VisualPartSAOD.UserControlHeapSort">
+	<TabControl x:DataType="iavm:HearSortInfo">
+		<TabControl.DataContext>
+			<iavm:HearSortInfo/>
+		</TabControl.DataContext>
+
+		<TabItem Header="Сводная информация">
+			<ScrollViewer
+				HorizontalScrollBarVisibility="Auto"
+				Height="{Binding $parent[TabItem].Height}"
+				Width="{Binding $parent[TabItem].Width}">
+				<StackPanel>
+					<TextBlock Text="{Binding RandomHeapArrayInfo}"/>
+					<TextBlock Text="{Binding IncreasingHeapArrayInfo}"/>
+					<TextBlock Text="{Binding DecreasingHeapArrayInfo}"/>
+				</StackPanel>
+			</ScrollViewer>
+		</TabItem>
+
+
+		
+		<TabItem Header="Сортировка">
+			<ScrollViewer HorizontalScrollBarVisibility="Auto" Height="{Binding $parent[TabItem].Height}"
+					  Width="{Binding $parent[TabItem].Width}">
+				<WrapPanel>
+
+					<DataGrid ItemsSource="{Binding TableHeapSort}">
+						<DataGrid.Columns>
+							<DataGridTextColumn
+							Header="N"
+							Binding="{Binding N, DataType=iavm:SortedArrayTableRow}"/>
+							<DataGridTextColumn
+							Header="Теоритическая"
+							Binding="{Binding TheorCMHeap, DataType=iavm:SortedArrayTableRow}"/>
+							<DataGridTextColumn
+								Header="Рандомный"
+								Binding="{Binding RandomCM, DataType=iavm:SortedArrayTableRow}"/>
+							<DataGridTextColumn
+								Header="Убывающий"
+								Binding="{Binding DecreaseCM, DataType=iavm:SortedArrayTableRow}"/>
+							<DataGridTextColumn
+								Header="Возрастающий"
+								Binding="{Binding IncreaseCM, DataType=iavm:SortedArrayTableRow}"/>
+						</DataGrid.Columns>
+					</DataGrid>
+
+				</WrapPanel>
+			</ScrollViewer>
+		</TabItem>
+
+		
+
+		
+
+		<TabItem Header="График">
+			<lvc:CartesianChart
+				Name="cartesianChart2"
+				Series="{Binding SeriesHearSort, DataType=iavm:HearSortInfo}"
+				LegendPosition="Left"
+				XAxes="{Binding XAxes}"
+				YAxes="{Binding YAxes}">
+			</lvc:CartesianChart>
+		</TabItem>
+
+	</TabControl>
+</UserControl>

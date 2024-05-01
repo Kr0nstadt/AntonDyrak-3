@@ -1,0 +1,84 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:iavm="clr-namespace:VisualPartSAOD.ViewModel.Lab2"
+             xmlns:lvc="using:LiveChartsCore.SkiaSharpView.Avalonia"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="VisualPartSAOD.UserControlLab4">
+	<TabControl x:DataType="iavm:SummaryInfoLab4">
+		<TabControl.DataContext>
+			<iavm:SummaryInfoLab4/>
+		</TabControl.DataContext>
+
+			<TabItem Header="Сводная информация">
+				<ScrollViewer
+					HorizontalScrollBarVisibility="Auto"
+					Height="{Binding $parent[TabItem].Height}"
+					Width="{Binding $parent[TabItem].Width}">
+					<StackPanel>
+						<TextBlock Text="{Binding RandomShakerArrayInfo}"/>
+						<TextBlock Text="{Binding IncreasingShakerArrayInfo}"/>
+						<TextBlock Text="{Binding DecreasingShakerArrayInfo}"/>
+					</StackPanel>
+				</ScrollViewer>
+			</TabItem>
+
+		<TabItem Header="Таблица">
+			<ScrollViewer HorizontalScrollBarVisibility="Auto" Height="{Binding $parent[TabItem].Height}"
+						  Width="{Binding $parent[TabItem].Width}">
+				<WrapPanel>
+					<!--Пузырёк-->
+					<DataGrid ItemsSource="{Binding TableBubbleSort}">
+						<DataGrid.Columns>
+							<DataGridTextColumn
+								Header="N"
+								Binding="{Binding N, DataType=iavm:SortedArrayTableRow}"/>
+							<DataGridTextColumn
+								Header="M+C Теор. Пузырёк"
+								Binding="{Binding TheorMC, DataType=iavm:SortedArrayTableRow}"/>
+							<DataGridTextColumn
+								Header="Mф+Cф Убыв. Пузырёк"
+								Binding="{Binding DecreaseCM, DataType=iavm:SortedArrayTableRow}"/>
+							<DataGridTextColumn
+								Header="Mф+Cф Случ. Пузырёк"
+								Binding="{Binding RandomCM, DataType=iavm:SortedArrayTableRow}"/>
+							<DataGridTextColumn
+								Header="Mф+Cф Возр. Пузырёк"
+								Binding="{Binding IncreaseCM, DataType=iavm:SortedArrayTableRow}"/>
+						</DataGrid.Columns>
+					</DataGrid>
+
+					<!--Шейкер-->
+
+					<DataGrid ItemsSource="{Binding TableShakerSort}">
+						<DataGrid.Columns>
+							<DataGridTextColumn
+								Header="M+C Теор. Шейкер"
+								Binding="{Binding TheorMC, DataType=iavm:SortedArrayTableRow}"/>
+							<DataGridTextColumn
+								Header="Mф+Cф Убыв. Шейкер"
+								Binding="{Binding DecreaseCM, DataType=iavm:SortedArrayTableRow}"/>
+							<DataGridTextColumn
+								Header="Mф+Cф Случ. Шейкер"
+								Binding="{Binding RandomCM, DataType=iavm:SortedArrayTableRow}"/>
+							<DataGridTextColumn
+								Header="Mф+Cф Возр. Шейкер"
+								Binding="{Binding IncreaseCM, DataType=iavm:SortedArrayTableRow}"/>
+						</DataGrid.Columns>
+					</DataGrid>
+				</WrapPanel>
+			</ScrollViewer>
+		</TabItem>
+
+		<TabItem Header="График">
+			<lvc:CartesianChart
+				Name="cartesianChart"
+				Series="{Binding SeriesLab4, DataType=iavm:SummaryInfoLab4}"
+				LegendPosition="Left"
+				XAxes="{Binding XAxes}"
+				YAxes="{Binding YAxes}">
+			</lvc:CartesianChart>
+		</TabItem>
+	</TabControl>
+</UserControl>

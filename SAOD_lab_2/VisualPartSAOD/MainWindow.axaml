@@ -1,0 +1,58 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:con="clr-namespace:VisualPartSAOD"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        Width="800" Height="850"
+        x:Class="VisualPartSAOD.MainWindow"
+        Title="VisualPartSAOD">
+    <TabControl>
+		<!--
+		<TabItem Header="Bubble">
+            <con:UserControlLab3/>
+        </TabItem>
+
+        <TabItem Header="Sheker">
+            <con:UserControlLab4/>
+        </TabItem>
+
+		<TabItem Header="Insert">
+			<con:UserControlInsert/>
+		</TabItem>
+
+        <TabItem Header="Shell">
+            <con:UserControlLab5/>
+        </TabItem>
+
+		<TabItem Header="SuperShell">
+			<con:UserControlSuper/>
+		</TabItem>
+		-->
+
+		<TabItem Header="BinarySearch">
+			<con:BinarySearchUseControl/>
+		</TabItem>
+
+		<TabItem Header="Phonebook">
+			<con:PhonebookUserControl/>
+		</TabItem>
+
+		<TabItem Header="HeapSort">
+			<con:UserControlHeapSort/>
+		</TabItem>
+
+		<TabItem Header="QuickSort">
+			<con:UserControlQuickSort/>
+		</TabItem>
+
+		<TabItem Header="MergeSort">
+			<con:UserControlMergeSort/>
+        </TabItem>
+
+		<TabItem Header="DigitalSort">
+			<con:DigitSortUserControl/>
+		</TabItem>
+		
+    </TabControl>
+</Window>

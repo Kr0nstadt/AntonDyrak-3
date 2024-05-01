@@ -1,0 +1,113 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:iavm="clr-namespace:VisualPartSAOD.ViewModel.Lab2"
+             xmlns:lvc="using:LiveChartsCore.SkiaSharpView.Avalonia"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="VisualPartSAOD.UserControlSuper">
+	<TabControl x:DataType="iavm:SummaryInfoSuper">
+		<TabControl.DataContext>
+			<iavm:SummaryInfoSuper/>
+		</TabControl.DataContext>
+
+		<TabItem Header="Сводная информация">
+			<ScrollViewer
+				HorizontalScrollBarVisibility="Auto"
+				Height="{Binding $parent[TabItem].Height}"
+				Width="{Binding $parent[TabItem].Width}">
+				<StackPanel>
+					<TextBlock Text="{Binding RandomArrayInfo}"/>
+					<TextBlock Text="{Binding IncreasingArrayInfo}"/>
+					<TextBlock Text="{Binding DecreasingArrayInfo}"/>
+				</StackPanel>
+			</ScrollViewer>
+		</TabItem>
+
+		<TabItem Header="Таблица 1">
+			<ScrollViewer HorizontalScrollBarVisibility="Auto" Height="{Binding $parent[TabItem].Height}"
+					  Width="{Binding $parent[TabItem].Width}">
+				<WrapPanel>
+
+					<DataGrid ItemsSource="{Binding TableShellSort}">
+						<DataGrid.Columns>
+							<DataGridTextColumn
+							Header="N"
+							Binding="{Binding N, DataType=iavm:SortedArrayTableRow}"/>
+							<DataGridTextColumn
+								Header="Количество Шагов"
+								Binding="{Binding StepShell, DataType=iavm:SortedArrayTableRow}"/>
+							<DataGridTextColumn
+								Header="Последовательность Шагов"
+								Binding="{Binding GepShell, DataType=iavm:SortedArrayTableRow}"/>
+							<DataGridTextColumn
+								Header="Трудоемкость ShellSort"
+								Binding="{Binding RandomCM, DataType=iavm:SortedArrayTableRow}"/>
+						</DataGrid.Columns>
+					</DataGrid>
+					<DataGrid ItemsSource="{Binding TableInsertSort}">
+						<DataGrid.Columns>
+
+							<DataGridTextColumn
+								Header="Трудоемкость InsertSort"
+								Binding="{Binding RandomCM, DataType=iavm:SortedArrayTableRow}"/>
+						</DataGrid.Columns>
+					</DataGrid>
+				</WrapPanel>
+			</ScrollViewer>
+		</TabItem>
+
+		<TabItem Header="Таблица 2">
+			<ScrollViewer HorizontalScrollBarVisibility="Auto" Height="{Binding $parent[TabItem].Height}"
+					  Width="{Binding $parent[TabItem].Width}">
+				<WrapPanel>
+
+					<DataGrid ItemsSource="{Binding TableSuperShellSort}">
+						<DataGrid.Columns>
+							<DataGridTextColumn
+							Header="N"
+							Binding="{Binding N, DataType=iavm:SortedArrayTableRow}"/>
+							<DataGridTextColumn
+								Header="Количество Шагов моя"
+								Binding="{Binding StepShell, DataType=iavm:SortedArrayTableRow}"/>
+							<DataGridTextColumn
+								Header="Последовательность Шагов моя"
+								Binding="{Binding GepShell, DataType=iavm:SortedArrayTableRow}"/>
+							<DataGridTextColumn
+								Header="Трудоемкость MyShellSort"
+								Binding="{Binding RandomCM, DataType=iavm:SortedArrayTableRow}"/>
+						</DataGrid.Columns>
+					</DataGrid>
+					<DataGrid ItemsSource="{Binding TableShellSort}">
+						<DataGrid.Columns>
+							
+							<DataGridTextColumn
+								Header="Количество Шагов Кнут"
+								Binding="{Binding StepShell, DataType=iavm:SortedArrayTableRow}"/>
+							<DataGridTextColumn
+								Header="Последовательность Шагов Кнут"
+								Binding="{Binding GepShell, DataType=iavm:SortedArrayTableRow}"/>
+							<DataGridTextColumn
+								Header="Трудоемкость ShellSort"
+								Binding="{Binding RandomCM, DataType=iavm:SortedArrayTableRow}"/>
+						</DataGrid.Columns>
+					</DataGrid>
+					<StackPanel>
+						<TextBlock Text=" Моя последовательность шагов |log(2)n|-2"/>
+						<TextBlock Text="Мои шаги An = 0,5(3^n - 1)"/>
+					</StackPanel>
+				</WrapPanel>
+			</ScrollViewer>
+		</TabItem>
+
+		<TabItem Header="График">
+			<lvc:CartesianChart
+				Name="cartesianChart"
+				Series="{Binding SeriesSuperShell, DataType=iavm:SummaryInfoSuper}"
+				LegendPosition="Left"
+				XAxes="{Binding XAxes}"
+				YAxes="{Binding YAxes}">
+			</lvc:CartesianChart>
+		</TabItem>
+	</TabControl>
+</UserControl>

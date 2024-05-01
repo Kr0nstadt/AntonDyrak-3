@@ -1,0 +1,206 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\SAOD lab 2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9AC4C859-7667-48ED-B0E0-F29E257D4CF1}|VisualPartSAOD\\VisualPartSAOD.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\saod lab 2\\visualpartsaod\\viewmodel\\lab2\\digitalsortinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AC4C859-7667-48ED-B0E0-F29E257D4CF1}|VisualPartSAOD\\VisualPartSAOD.csproj|solutionrelative:visualpartsaod\\viewmodel\\lab2\\digitalsortinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AC4C859-7667-48ED-B0E0-F29E257D4CF1}|VisualPartSAOD\\VisualPartSAOD.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\saod lab 2\\visualpartsaod\\viewmodel\\lab2\\digitalsorttablerow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AC4C859-7667-48ED-B0E0-F29E257D4CF1}|VisualPartSAOD\\VisualPartSAOD.csproj|solutionrelative:visualpartsaod\\viewmodel\\lab2\\digitalsorttablerow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AC4C859-7667-48ED-B0E0-F29E257D4CF1}|VisualPartSAOD\\VisualPartSAOD.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\saod lab 2\\visualpartsaod\\viewmodel\\lab2\\digitsortviewmodelshort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AC4C859-7667-48ED-B0E0-F29E257D4CF1}|VisualPartSAOD\\VisualPartSAOD.csproj|solutionrelative:visualpartsaod\\viewmodel\\lab2\\digitsortviewmodelshort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CBCCC93-C7E0-4390-808D-FD965FB34594}|Digital\\Digital.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\saod lab 2\\digital\\shortarraymade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CBCCC93-C7E0-4390-808D-FD965FB34594}|Digital\\Digital.csproj|solutionrelative:digital\\shortarraymade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CBCCC93-C7E0-4390-808D-FD965FB34594}|Digital\\Digital.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\saod lab 2\\digital\\intarraymade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CBCCC93-C7E0-4390-808D-FD965FB34594}|Digital\\Digital.csproj|solutionrelative:digital\\intarraymade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0E83B7E-2CBD-4523-B810-78ABB3001DD7}|SAOD lab 2\\SAOD lab 2.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\saod lab 2\\saod lab 2\\base\\baseintarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0E83B7E-2CBD-4523-B810-78ABB3001DD7}|SAOD lab 2\\SAOD lab 2.csproj|solutionrelative:saod lab 2\\base\\baseintarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AC4C859-7667-48ED-B0E0-F29E257D4CF1}|VisualPartSAOD\\VisualPartSAOD.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\saod lab 2\\visualpartsaod\\viewmodel\\lab2\\digitsortviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AC4C859-7667-48ED-B0E0-F29E257D4CF1}|VisualPartSAOD\\VisualPartSAOD.csproj|solutionrelative:visualpartsaod\\viewmodel\\lab2\\digitsortviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CBCCC93-C7E0-4390-808D-FD965FB34594}|Digital\\Digital.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\saod lab 2\\digital\\digitalsort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CBCCC93-C7E0-4390-808D-FD965FB34594}|Digital\\Digital.csproj|solutionrelative:digital\\digitalsort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AC4C859-7667-48ED-B0E0-F29E257D4CF1}|VisualPartSAOD\\VisualPartSAOD.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\saod lab 2\\visualpartsaod\\digitsortusercontrol.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{9AC4C859-7667-48ED-B0E0-F29E257D4CF1}|VisualPartSAOD\\VisualPartSAOD.csproj|solutionrelative:visualpartsaod\\digitsortusercontrol.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CBCCC93-C7E0-4390-808D-FD965FB34594}|Digital\\Digital.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\saod lab 2\\digital\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CBCCC93-C7E0-4390-808D-FD965FB34594}|Digital\\Digital.csproj|solutionrelative:digital\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AC4C859-7667-48ED-B0E0-F29E257D4CF1}|VisualPartSAOD\\VisualPartSAOD.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\saod lab 2\\visualpartsaod\\viewmodel\\lab2\\digitalsortvievmodelsurname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AC4C859-7667-48ED-B0E0-F29E257D4CF1}|VisualPartSAOD\\VisualPartSAOD.csproj|solutionrelative:visualpartsaod\\viewmodel\\lab2\\digitalsortvievmodelsurname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DigitalSort.cs",
+              "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\SAOD lab 2\\Digital\\DigitalSort.cs",
+              "RelativeDocumentMoniker": "Digital\\DigitalSort.cs",
+              "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\SAOD lab 2\\Digital\\DigitalSort.cs",
+              "RelativeToolTip": "Digital\\DigitalSort.cs",
+              "ViewState": "AQIAAIMAAAAAAAAAAIAwwEUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T16:27:26.721Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IntArrayMade.cs",
+              "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\SAOD lab 2\\Digital\\IntArrayMade.cs",
+              "RelativeDocumentMoniker": "Digital\\IntArrayMade.cs",
+              "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\SAOD lab 2\\Digital\\IntArrayMade.cs",
+              "RelativeToolTip": "Digital\\IntArrayMade.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowB4AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T10:54:48.432Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DigitalSortTableRow.cs",
+              "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\SAOD lab 2\\VisualPartSAOD\\ViewModel\\Lab2\\DigitalSortTableRow.cs",
+              "RelativeDocumentMoniker": "VisualPartSAOD\\ViewModel\\Lab2\\DigitalSortTableRow.cs",
+              "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\SAOD lab 2\\VisualPartSAOD\\ViewModel\\Lab2\\DigitalSortTableRow.cs",
+              "RelativeToolTip": "VisualPartSAOD\\ViewModel\\Lab2\\DigitalSortTableRow.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T04:30:25.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShortArrayMade.cs",
+              "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\SAOD lab 2\\Digital\\ShortArrayMade.cs",
+              "RelativeDocumentMoniker": "Digital\\ShortArrayMade.cs",
+              "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\SAOD lab 2\\Digital\\ShortArrayMade.cs",
+              "RelativeToolTip": "Digital\\ShortArrayMade.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAA3wC8AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T04:04:02.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BaseIntArray.cs",
+              "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\SAOD lab 2\\SAOD lab 2\\Base\\BaseIntArray.cs",
+              "RelativeDocumentMoniker": "SAOD lab 2\\Base\\BaseIntArray.cs",
+              "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\SAOD lab 2\\SAOD lab 2\\Base\\BaseIntArray.cs",
+              "RelativeToolTip": "SAOD lab 2\\Base\\BaseIntArray.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T03:47:16.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DigitSortViewModelShort.cs",
+              "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\SAOD lab 2\\VisualPartSAOD\\ViewModel\\Lab2\\DigitSortViewModelShort.cs",
+              "RelativeDocumentMoniker": "VisualPartSAOD\\ViewModel\\Lab2\\DigitSortViewModelShort.cs",
+              "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\SAOD lab 2\\VisualPartSAOD\\ViewModel\\Lab2\\DigitSortViewModelShort.cs",
+              "RelativeToolTip": "VisualPartSAOD\\ViewModel\\Lab2\\DigitSortViewModelShort.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwFMAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T03:41:14.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DigitSortViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\SAOD lab 2\\VisualPartSAOD\\ViewModel\\Lab2\\DigitSortViewModel.cs",
+              "RelativeDocumentMoniker": "VisualPartSAOD\\ViewModel\\Lab2\\DigitSortViewModel.cs",
+              "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\SAOD lab 2\\VisualPartSAOD\\ViewModel\\Lab2\\DigitSortViewModel.cs",
+              "RelativeToolTip": "VisualPartSAOD\\ViewModel\\Lab2\\DigitSortViewModel.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAcwEQAAABoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T16:28:14.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DigitSortUserControl.axaml",
+              "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\SAOD lab 2\\VisualPartSAOD\\DigitSortUserControl.axaml",
+              "RelativeDocumentMoniker": "VisualPartSAOD\\DigitSortUserControl.axaml",
+              "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\SAOD lab 2\\VisualPartSAOD\\DigitSortUserControl.axaml",
+              "RelativeToolTip": "VisualPartSAOD\\DigitSortUserControl.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-26T11:56:29.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\SAOD lab 2\\Digital\\Program.cs",
+              "RelativeDocumentMoniker": "Digital\\Program.cs",
+              "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\SAOD lab 2\\Digital\\Program.cs",
+              "RelativeToolTip": "Digital\\Program.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwCAAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T11:25:11.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DigitalSortVievModelSurname.cs",
+              "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\SAOD lab 2\\VisualPartSAOD\\ViewModel\\Lab2\\DigitalSortVievModelSurname.cs",
+              "RelativeDocumentMoniker": "VisualPartSAOD\\ViewModel\\Lab2\\DigitalSortVievModelSurname.cs",
+              "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\SAOD lab 2\\VisualPartSAOD\\ViewModel\\Lab2\\DigitalSortVievModelSurname.cs",
+              "RelativeToolTip": "VisualPartSAOD\\ViewModel\\Lab2\\DigitalSortVievModelSurname.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAhwBMAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T11:34:05.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DigitalSortInfo.cs",
+              "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\SAOD lab 2\\VisualPartSAOD\\ViewModel\\Lab2\\DigitalSortInfo.cs",
+              "RelativeDocumentMoniker": "VisualPartSAOD\\ViewModel\\Lab2\\DigitalSortInfo.cs",
+              "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\SAOD lab 2\\VisualPartSAOD\\ViewModel\\Lab2\\DigitalSortInfo.cs",
+              "RelativeToolTip": "VisualPartSAOD\\ViewModel\\Lab2\\DigitalSortInfo.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAcwEsAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T16:10:40.614Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

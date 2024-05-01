@@ -1,0 +1,95 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+			 xmlns:avalonia="clr-namespace:LiveChartsCore.SkiaSharpView.Avalonia;assembly=LiveChartsCore.SkiaSharpView.Avalonia"
+             xmlns:iavm="clr-namespace:VisualPartSAOD.ViewModel.Lab2"
+             xmlns:lvc="using:LiveChartsCore.SkiaSharpView.Avalonia"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="VisualPartSAOD.DigitSortUserControl">
+	<TabControl x:DataType="iavm:DigitalSortInfo">
+		<TabControl.DataContext>
+			<iavm:DigitalSortInfo/>
+		</TabControl.DataContext>
+
+		<TabItem Header="4 байта">
+			<ScrollViewer
+				HorizontalScrollBarVisibility="Auto"
+				Height="{Binding $parent[TabItem].Height}"
+				Width="{Binding $parent[TabItem].Width}">
+				<StackPanel>
+					<TextBlock Text="{Binding DigitSortIntInfo}"/>
+					
+				</StackPanel>
+			</ScrollViewer>
+		</TabItem>
+		
+		<TabItem Header="2 байта">
+			<ScrollViewer
+				HorizontalScrollBarVisibility="Auto"
+				Height="{Binding $parent[TabItem].Height}"
+				Width="{Binding $parent[TabItem].Width}">
+				<StackPanel>
+					<TextBlock Text="{Binding DigitSortShortInfo}"/>
+
+				</StackPanel>
+			</ScrollViewer>
+		</TabItem>
+
+		<TabItem Header="Фамилии">
+			<ScrollViewer
+				HorizontalScrollBarVisibility="Auto"
+				Height="{Binding $parent[TabItem].Height}"
+				Width="{Binding $parent[TabItem].Width}">
+				<StackPanel>
+					<TextBlock Text="{Binding DigitSortIntInfoSurname}"/>
+
+				</StackPanel>
+			</ScrollViewer>
+		</TabItem>
+
+		<TabItem Header="Таблица">
+			<ScrollViewer HorizontalScrollBarVisibility="Auto" Height="{Binding $parent[TabItem].Height}"
+						  Width="{Binding $parent[TabItem].Width}">
+				<WrapPanel>
+
+					<DataGrid ItemsSource="{Binding TableDigitalSort}">
+						<DataGrid.Columns>
+							<DataGridTextColumn
+								Header="N"
+								Binding="{Binding N, DataType=iavm:DigitalSortTableRow}"/>
+
+							<DataGridTextColumn
+								Header="Теоретическая"
+								Binding="{Binding TheorMCInt, DataType=iavm:DigitalSortTableRow}"/>
+							<DataGridTextColumn
+								Header="Рандомный"
+								Binding="{Binding RandomCMInt, DataType=iavm:DigitalSortTableRow}"/>
+							<DataGridTextColumn
+								Header="Убывающий"
+								Binding="{Binding DecreaseCMInt, DataType=iavm:DigitalSortTableRow}"/>
+							<DataGridTextColumn
+								Header="Возрастающий"
+								Binding="{Binding IncreaseCMInt, DataType=iavm:DigitalSortTableRow}"/>
+						</DataGrid.Columns>
+					</DataGrid>
+
+				</WrapPanel>
+			</ScrollViewer>
+		</TabItem>
+		<TabItem Header="График">
+			<avalonia:CartesianChart
+				Name="cartesianChart2"
+				Series="{Binding SeriesDigitSort, DataType=iavm:DigitalSortInfo}"
+				LegendPosition="Left"
+				XAxes="{Binding XAxes}"
+				YAxes="{Binding YAxes}">
+			</avalonia:CartesianChart>
+		</TabItem>
+
+
+
+
+
+	</TabControl>
+</UserControl>

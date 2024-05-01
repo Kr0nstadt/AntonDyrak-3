@@ -1,0 +1,68 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:lab2="clr-namespace:VisualPartSAOD.ViewModel.Lab2"
+             xmlns:avalonia="clr-namespace:LiveChartsCore.SkiaSharpView.Avalonia;assembly=LiveChartsCore.SkiaSharpView.Avalonia"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="VisualPartSAOD.UserControlMergeSort">
+  <TabControl x:DataType="lab2:MergeSortInfo">
+      <TabControl.DataContext>
+		  <lab2:MergeSortInfo/>
+      </TabControl.DataContext>
+
+      <TabItem Header="Сводная информация">
+          <ScrollViewer
+              HorizontalScrollBarVisibility="Auto"
+              Height="{Binding $parent[TabItem].Height}"
+              Width="{Binding $parent[TabItem].Width}">
+              <StackPanel>
+                  <TextBlock Text="{Binding RandomIntListInfo}"/>
+                  <TextBlock Text="{Binding IncreasingIntListInfo}"/>
+                  <TextBlock Text="{Binding DecreasingIntListInfo}"/>
+              </StackPanel>
+          </ScrollViewer>
+      </TabItem>
+
+      <TabItem Header="Сортировка">
+          <ScrollViewer HorizontalScrollBarVisibility="Auto" Height="{Binding $parent[TabItem].Height}"
+                        Width="{Binding $parent[TabItem].Width}">
+              <WrapPanel>
+
+                  <DataGrid ItemsSource="{Binding TableMergeSort}">
+                      <DataGrid.Columns>
+                          <DataGridTextColumn
+                              Header="N"
+                              Binding="{Binding N, DataType=lab2:SortedListTableRow}"/>
+
+                          <DataGridTextColumn
+                              Header="Теоретическая"
+                              Binding="{Binding TheorMC, DataType=lab2:SortedListTableRow}"/>
+                          <DataGridTextColumn
+                              Header="Рандомный"
+                              Binding="{Binding RandomCM, DataType=lab2:SortedListTableRow}"/>
+                          <DataGridTextColumn
+                              Header="Убывающий"
+                              Binding="{Binding DecreaseCM, DataType=lab2:SortedListTableRow}"/>
+                          <DataGridTextColumn
+                              Header="Возрастающий"
+                              Binding="{Binding IncreaseCM, DataType=lab2:SortedListTableRow}"/>
+                      </DataGrid.Columns>
+                  </DataGrid>
+
+              </WrapPanel>
+          </ScrollViewer>
+      </TabItem>
+
+      <TabItem Header="График">
+          <avalonia:CartesianChart
+              Name="cartesianChart2"
+              Series="{Binding SeriesMergeSort, DataType=lab2:MergeSortInfo}"
+              LegendPosition="Left"
+              XAxes="{Binding XAxes}"
+              YAxes="{Binding YAxes}">
+          </avalonia:CartesianChart>
+      </TabItem>
+
+  </TabControl>
+</UserControl>

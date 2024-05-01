@@ -1,0 +1,62 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:iavm="clr-namespace:VisualPartSAOD.ViewModel.Lab2"
+             xmlns:lvc="using:LiveChartsCore.SkiaSharpView.Avalonia"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="VisualPartSAOD.UserControlLab3">
+      <TabControl Name="TC" x:DataType="iavm:SummaryInfoLab3">
+          <TabControl.DataContext>
+              <iavm:SummaryInfoLab3/>
+          </TabControl.DataContext>
+
+		  <TabItem Header="Сводная информация">
+		    <ScrollViewer
+                HorizontalScrollBarVisibility="Auto" 
+                Height="{Binding $parent[TabItem].Height}"
+                Width="{Binding $parent[TabItem].Width}">
+                <StackPanel>
+				    <TextBlock Text="{Binding RandomArrayInfo}"/>
+				    <TextBlock Text="{Binding IncreasingArrayInfo}"/>
+				    <TextBlock Text="{Binding DecreasingArrayInfo}"/>
+			    </StackPanel>
+		    </ScrollViewer>
+        </TabItem>
+
+        <TabItem Header="Таблица">
+		    <ScrollViewer HorizontalScrollBarVisibility="Auto" Height="{Binding $parent[TabItem].Height}"
+                          Width="{Binding $parent[TabItem].Width}">
+			    <DataGrid ItemsSource="{Binding TableBubbleSort}">
+				    <DataGrid.Columns>
+					    <DataGridTextColumn
+                            Header="N"
+                            Binding="{Binding N, DataType=iavm:SortedArrayTableRow}"/>
+					    <DataGridTextColumn
+                            Header="M+C Теор."
+                            Binding="{Binding TheorMC, DataType=iavm:SortedArrayTableRow}"/>
+					    <DataGridTextColumn
+                            Header="Mф+Cф Убыв."
+                            Binding="{Binding DecreaseCM, DataType=iavm:SortedArrayTableRow}"/>
+					    <DataGridTextColumn 
+                            Header="Mф+Cф Случ."
+                            Binding="{Binding RandomCM, DataType=iavm:SortedArrayTableRow}"/>
+					    <DataGridTextColumn 
+                            Header="Mф+Cф Возр." 
+                            Binding="{Binding IncreaseCM, DataType=iavm:SortedArrayTableRow}"/>
+				    </DataGrid.Columns>
+			    </DataGrid>
+		    </ScrollViewer>
+        </TabItem>
+
+        <TabItem Header="График">
+		    <lvc:CartesianChart
+				Name="cartesianChart"
+                Series="{Binding SeriesLab3, DataType=iavm:SummaryInfoLab3}"
+                LegendPosition="Left"
+                XAxes="{Binding XAxes}"
+                YAxes="{Binding YAxes}">
+		    </lvc:CartesianChart>
+        </TabItem>
+    </TabControl>
+</UserControl>

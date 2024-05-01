@@ -1,0 +1,70 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:iavm="clr-namespace:VisualPartSAOD.ViewModel.Lab2"
+             xmlns:lvc="using:LiveChartsCore.SkiaSharpView.Avalonia"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="VisualPartSAOD.PhonebookUserControl">
+	<TabControl x:DataType="iavm:PhonebookInfo">
+		<TabControl.DataContext>
+			<iavm:PhonebookInfo/>
+		</TabControl.DataContext>
+
+		<TabItem Header="Первая сортировка">
+			<ScrollViewer
+				HorizontalScrollBarVisibility="Auto"
+				Height="{Binding $parent[TabItem].Height}"
+				Width="{Binding $parent[TabItem].Width}">
+				<StackPanel>
+					<TextBlock Text="{Binding PhonebookText}"/>
+				</StackPanel>
+			</ScrollViewer>
+		</TabItem>
+
+		<TabItem Header="Вторая сортировка">
+			<ScrollViewer
+				HorizontalScrollBarVisibility="Auto"
+				Height="{Binding $parent[TabItem].Height}"
+				Width="{Binding $parent[TabItem].Width}">
+				<StackPanel>
+					<TextBlock Text="{Binding Phonebook2Text}"/>
+				</StackPanel>
+			</ScrollViewer>
+		</TabItem>
+
+		<TabItem Header="Бинарный поиск район">
+			<ScrollViewer
+				HorizontalScrollBarVisibility="Auto"
+				Height="{Binding $parent[TabItem].Height}"
+				Width="{Binding $parent[TabItem].Width}">
+				<StackPanel>
+					<TextBlock Text="{Binding Phonebook3Text}"/>
+					<TextBox Name="AString" Grid.Row="0" Grid.Column="1" Margin="05" Text=""/>
+					<Button HorizontalAlignment="Center" Click="ButtonClicked">Найти</Button>
+					<TextBlock Name="InfoR" Text=" "></TextBlock>
+					
+				</StackPanel>
+			</ScrollViewer>
+		</TabItem>
+
+		<TabItem Header="Бинарный поиск фамилии">
+			<ScrollViewer
+				HorizontalScrollBarVisibility="Auto"
+				Height="{Binding $parent[TabItem].Height}"
+				Width="{Binding $parent[TabItem].Width}">
+				<StackPanel>
+					<TextBlock Text="{Binding Phonebook4Text}"/>
+					<TextBox Name="AString2" Grid.Row="0" Grid.Column="1" Margin="05" Text=""/>
+					<Button HorizontalAlignment="Center" Click="ButtonClicked2">Найти</Button>
+					<TextBlock Name="InfoR2" Text=" "></TextBlock>
+
+				</StackPanel>
+			</ScrollViewer>
+		</TabItem>
+
+		
+
+
+	</TabControl>
+</UserControl>

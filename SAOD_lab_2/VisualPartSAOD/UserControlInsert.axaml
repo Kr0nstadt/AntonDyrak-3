@@ -1,0 +1,105 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:iavm="clr-namespace:VisualPartSAOD.ViewModel.Lab2"
+             xmlns:lvc="using:LiveChartsCore.SkiaSharpView.Avalonia"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="VisualPartSAOD.UserControlInsert">
+	<TabControl x:DataType="iavm:InfoInsertSort">
+		<TabControl.DataContext>
+			<iavm:InfoInsertSort/>
+		</TabControl.DataContext>
+
+		<TabItem Header="Сводная информация">
+			<ScrollViewer
+				HorizontalScrollBarVisibility="Auto"
+				Height="{Binding $parent[TabItem].Height}"
+				Width="{Binding $parent[TabItem].Width}">
+				<StackPanel>
+					<TextBlock Text="{Binding RandomInsertArrayInfo}"/>
+					<TextBlock Text="{Binding IncreasingInsertArrayInfo}"/>
+					<TextBlock Text="{Binding DecreasingInsertArrayInfo}"/>
+				</StackPanel>
+			</ScrollViewer>
+		</TabItem>
+
+		<TabItem Header="Таблица 1">
+			<ScrollViewer HorizontalScrollBarVisibility="Auto" Height="{Binding $parent[TabItem].Height}"
+                          Width="{Binding $parent[TabItem].Width}">
+				<DataGrid ItemsSource="{Binding TableInsertSort}">
+					<DataGrid.Columns>
+						<DataGridTextColumn
+                            Header="N"
+                            Binding="{Binding N, DataType=iavm:SortedArrayTableRow}"/>
+						<DataGridTextColumn
+                            Header="M+C Теор."
+                            Binding="{Binding TheorMC, DataType=iavm:SortedArrayTableRow}"/>
+						<DataGridTextColumn
+                            Header="Mф+Cф Убыв."
+                            Binding="{Binding DecreaseCM, DataType=iavm:SortedArrayTableRow}"/>
+						<DataGridTextColumn
+                            Header="Mф+Cф Случ."
+                            Binding="{Binding RandomCM, DataType=iavm:SortedArrayTableRow}"/>
+						<DataGridTextColumn
+                            Header="Mф+Cф Возр."
+                            Binding="{Binding IncreaseCM, DataType=iavm:SortedArrayTableRow}"/>
+					</DataGrid.Columns>
+				</DataGrid>
+			</ScrollViewer>
+		</TabItem>
+
+
+
+		<TabItem Header="Таблица 2">
+			<ScrollViewer HorizontalScrollBarVisibility="Auto" Height="{Binding $parent[TabItem].Height}"
+					  Width="{Binding $parent[TabItem].Width}">
+				<WrapPanel>
+
+					<DataGrid ItemsSource="{Binding TableSelectSort}">
+						<DataGrid.Columns>
+							<DataGridTextColumn
+							Header="N"
+							Binding="{Binding N, DataType=iavm:SortedArrayTableRow}"/>
+							<DataGridTextColumn
+								Header="Mф+Cф Случ.SelectSort"
+								Binding="{Binding RandomCM, DataType=iavm:SortedArrayTableRow}"/>
+						</DataGrid.Columns>
+					</DataGrid>
+					<DataGrid ItemsSource="{Binding TableBubbleSort}">
+						<DataGrid.Columns>
+							<DataGridTextColumn
+								Header="Mф+Cф Случ. BubbleSort"
+								Binding="{Binding RandomCM, DataType=iavm:SortedArrayTableRow}"/>
+						</DataGrid.Columns>
+					</DataGrid>
+					<DataGrid ItemsSource="{Binding TableShakerSort}">
+						<DataGrid.Columns>
+							<DataGridTextColumn
+								Header="Mф+Cф Случ. ShekerSort"
+								Binding="{Binding RandomCM, DataType=iavm:SortedArrayTableRow}"/>
+						</DataGrid.Columns>
+					</DataGrid>
+					<DataGrid ItemsSource="{Binding TableInsertSort}">
+						<DataGrid.Columns>
+							<DataGridTextColumn
+                                Header="Mф+Cф Случ. InsertSort"
+                                Binding="{Binding RandomCM, DataType=iavm:SortedArrayTableRow}"/>
+						</DataGrid.Columns>
+					</DataGrid>
+				</WrapPanel>
+			</ScrollViewer>
+		</TabItem>
+
+		
+		<TabItem Header="График">
+			<lvc:CartesianChart
+				Name="cartesianChart"
+				Series="{Binding SeriesInsert, DataType=iavm:InfoInsertSort}"
+				LegendPosition="Left"
+				XAxes="{Binding XAxes}"
+				YAxes="{Binding YAxes}">
+			</lvc:CartesianChart>
+		</TabItem>
+	</TabControl>
+</UserControl>
