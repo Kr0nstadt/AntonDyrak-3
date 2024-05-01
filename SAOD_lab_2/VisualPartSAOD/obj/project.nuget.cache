@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mFS5E6UuP9f31XfMOwBguHQvm9sDXVTE2dEuFvemQRPdMI9PiMiyxbaC8WQrg3C6nJQ2rWkcCjx7IGd0+zt2Kw==",
+  "dgSpecHash": "Oi//+fBO7XuHI5IRoXx2TsIyDwRb9kVinuVmNGtm7SIYcshhm/Wo0/nJft/JkId+R5uhYNc4jXCdOhhwwB2Npg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\SAOd lab 2\\VisualPartSAOD\\VisualPartSAOD.csproj",
+  "projectFilePath": "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\AntonDyrak-3\\SAOD_lab_2\\VisualPartSAOD\\VisualPartSAOD.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\karpo\\.nuget\\packages\\avalonia\\11.0.6\\avalonia.11.0.6.nupkg.sha512",
     "C:\\Users\\karpo\\.nuget\\packages\\avalonia.angle.windows.natives\\2.1.0.2023020321\\avalonia.angle.windows.natives.2.1.0.2023020321.nupkg.sha512",

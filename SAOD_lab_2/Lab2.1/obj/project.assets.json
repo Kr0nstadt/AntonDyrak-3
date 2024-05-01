@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\SAOd lab 2\\Lab2.1\\Lab2.1.csproj",
+      "projectUniqueName": "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\AntonDyrak-3\\SAOD_lab_2\\Lab2.1\\Lab2.1.csproj",
       "projectName": "Lab2.1",
-      "projectPath": "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\SAOd lab 2\\Lab2.1\\Lab2.1.csproj",
+      "projectPath": "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\AntonDyrak-3\\SAOD_lab_2\\Lab2.1\\Lab2.1.csproj",
       "packagesPath": "C:\\Users\\karpo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\SAOD lab 2\\Lab2.1\\obj\\",
+      "outputPath": "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\AntonDyrak-3\\SAOD_lab_2\\Lab2.1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\karpo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\SAOd lab 2\\DynamicDataStructure\\DynamicDataStructure.csproj": {
-              "projectPath": "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\SAOd lab 2\\DynamicDataStructure\\DynamicDataStructure.csproj"
+            "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\AntonDyrak-3\\SAOD_lab_2\\DynamicDataStructure\\DynamicDataStructure.csproj": {
+              "projectPath": "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\AntonDyrak-3\\SAOD_lab_2\\DynamicDataStructure\\DynamicDataStructure.csproj"
             }
           }
         }

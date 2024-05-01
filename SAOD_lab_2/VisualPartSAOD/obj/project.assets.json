@@ -4706,11 +4706,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\SAOd lab 2\\VisualPartSAOD\\VisualPartSAOD.csproj",
+      "projectUniqueName": "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\AntonDyrak-3\\SAOD_lab_2\\VisualPartSAOD\\VisualPartSAOD.csproj",
       "projectName": "VisualPartSAOD",
-      "projectPath": "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\SAOd lab 2\\VisualPartSAOD\\VisualPartSAOD.csproj",
+      "projectPath": "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\AntonDyrak-3\\SAOD_lab_2\\VisualPartSAOD\\VisualPartSAOD.csproj",
       "packagesPath": "C:\\Users\\karpo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\SAOd lab 2\\VisualPartSAOD\\obj\\",
+      "outputPath": "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\AntonDyrak-3\\SAOD_lab_2\\VisualPartSAOD\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\karpo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4727,14 +4727,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\SAOd lab 2\\Digital\\Digital.csproj": {
-              "projectPath": "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\SAOd lab 2\\Digital\\Digital.csproj"
+            "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\AntonDyrak-3\\SAOD_lab_2\\Digital\\Digital.csproj": {
+              "projectPath": "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\AntonDyrak-3\\SAOD_lab_2\\Digital\\Digital.csproj"
             },
-            "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\SAOd lab 2\\DynamicDataStructure\\DynamicDataStructure.csproj": {
-              "projectPath": "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\SAOd lab 2\\DynamicDataStructure\\DynamicDataStructure.csproj"
+            "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\AntonDyrak-3\\SAOD_lab_2\\DynamicDataStructure\\DynamicDataStructure.csproj": {
+              "projectPath": "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\AntonDyrak-3\\SAOD_lab_2\\DynamicDataStructure\\DynamicDataStructure.csproj"
             },
-            "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\SAOd lab 2\\SAOD lab 2\\SAOD lab 2.csproj": {
-              "projectPath": "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\SAOd lab 2\\SAOD lab 2\\SAOD lab 2.csproj"
+            "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\AntonDyrak-3\\SAOD_lab_2\\SAOD lab 2\\SAOD lab 2.csproj": {
+              "projectPath": "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\AntonDyrak-3\\SAOD_lab_2\\SAOD lab 2\\SAOD lab 2.csproj"
             }
           }
         }
