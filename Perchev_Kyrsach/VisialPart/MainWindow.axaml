@@ -19,7 +19,7 @@
 			<Setter Property="Content">
 				<Setter.Value>
 					<Template>
-						<Image Source="avares://VisialPart/Icons/free.png"/>
+						<Image Source="avares://VisialPart/Icons/free.jpg"/>
 					</Template>
                 </Setter.Value>
             </Setter>
@@ -65,7 +65,7 @@
         <Button
 			Command="{Binding StartGame}" x:DataType="vm:MainWindowViewModel"
 			Grid.Column="1" Width="50" Height="50">
-			<Image Source="Icons/happy.png"/>
+			<Image Source="Icons/happy.jpg"/>
         </Button>
 		<TextBox 
 			Text="{Binding Seconds}"
