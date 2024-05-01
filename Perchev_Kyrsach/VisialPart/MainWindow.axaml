@@ -1,0 +1,68 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:vm="clr-namespace:VisialPart"
+		xmlns:fields="clr-namespace:Perchev_Kyrsach.Fields;assembly=Perchev_Kyrsach"
+		mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+		Width="644" Height="708"
+        x:Class="VisialPart.MainWindow"
+        Title="VisialPart">
+
+	<Window.DataContext>
+		<vm:MainWindowViewModel/>
+	</Window.DataContext>
+
+	<Window.Styles>
+		<Style Selector="Button.BombOpen">
+			<Setter Property="Content" Value="B"/>
+		</Style>
+
+		<Style Selector="Button.EmptyOpen">
+			<Setter Property="Content" Value="{Binding BombCount}" x:DataType="fields:EmptyField"/>
+		</Style>
+
+		<Style Selector="Button.Flag">
+			<Setter Property="Content" Value="F"/>
+		</Style>
+	</Window.Styles>
+
+	<Window.DataTemplates>
+		<DataTemplate x:DataType="fields:BombField">
+			<Button
+				PointerPressed="CellPressedRightButtonClick"
+				Command="{Binding $parent[Window].((vm:MainWindowViewModel)DataContext).OpenCell}"
+					CommandParameter="{Binding}"
+					Height="40" Width="40" 
+					Classes.BombOpen="{Binding IsOpen}"
+					Classes.Flag="{Binding Flag}"/>
+		</DataTemplate>
+
+		<DataTemplate x:DataType="fields:EmptyField">
+			<Button
+				PointerPressed="CellPressedRightButtonClick"
+				Command="{Binding $parent[Window].((vm:MainWindowViewModel)DataContext).OpenCell}"
+				CommandParameter="{Binding}"
+				Height="40" Width="40"
+				Classes.EmptyOpen="{Binding IsOpen}"
+				Classes.Flag="{Binding Flag}"/>
+		</DataTemplate>
+	</Window.DataTemplates>
+
+	<Grid RowDefinitions="Auto, *" ColumnDefinitions="*, 50,*">
+		<Button
+			Command="{Binding StartGame}" x:DataType="vm:MainWindowViewModel"
+			Grid.Column="1" Width="50" Height="50">Smile</Button>
+		<TextBox Grid.Column="3"/>
+		
+		<ItemsControl Grid.Row="1" Grid.ColumnSpan="3" 
+					  ItemsSource="{Binding Board}"
+					  x:DataType="vm:MainWindowViewModel">
+			<ItemsControl.ItemsPanel>
+				<ItemsPanelTemplate>
+					<WrapPanel/>
+				</ItemsPanelTemplate>
+			</ItemsControl.ItemsPanel>
+		</ItemsControl>
+	</Grid>
+</Window>

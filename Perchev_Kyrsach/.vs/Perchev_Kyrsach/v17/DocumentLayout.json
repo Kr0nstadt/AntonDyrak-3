@@ -1,0 +1,172 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Perchev_Kyrsach\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E7687481-24F1-4442-AE05-62089A602031}|VisialPart\\VisialPart.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\perchev_kyrsach\\visialpart\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{E7687481-24F1-4442-AE05-62089A602031}|VisialPart\\VisialPart.csproj|solutionrelative:visialpart\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7687481-24F1-4442-AE05-62089A602031}|VisialPart\\VisialPart.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\perchev_kyrsach\\visialpart\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7687481-24F1-4442-AE05-62089A602031}|VisialPart\\VisialPart.csproj|solutionrelative:visialpart\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7687481-24F1-4442-AE05-62089A602031}|VisialPart\\VisialPart.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\perchev_kyrsach\\visialpart\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7687481-24F1-4442-AE05-62089A602031}|VisialPart\\VisialPart.csproj|solutionrelative:visialpart\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{384A628B-5C2C-4BFA-937E-5008FBF5FEA3}|Perchev_Kyrsach\\Perchev_Kyrsach.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\perchev_kyrsach\\perchev_kyrsach\\fields\\gameboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{384A628B-5C2C-4BFA-937E-5008FBF5FEA3}|Perchev_Kyrsach\\Perchev_Kyrsach.csproj|solutionrelative:perchev_kyrsach\\fields\\gameboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{384A628B-5C2C-4BFA-937E-5008FBF5FEA3}|Perchev_Kyrsach\\Perchev_Kyrsach.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\perchev_kyrsach\\perchev_kyrsach\\fields\\emptyfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{384A628B-5C2C-4BFA-937E-5008FBF5FEA3}|Perchev_Kyrsach\\Perchev_Kyrsach.csproj|solutionrelative:perchev_kyrsach\\fields\\emptyfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{384A628B-5C2C-4BFA-937E-5008FBF5FEA3}|Perchev_Kyrsach\\Perchev_Kyrsach.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\perchev_kyrsach\\perchev_kyrsach\\fields\\bombfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{384A628B-5C2C-4BFA-937E-5008FBF5FEA3}|Perchev_Kyrsach\\Perchev_Kyrsach.csproj|solutionrelative:perchev_kyrsach\\fields\\bombfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{384A628B-5C2C-4BFA-937E-5008FBF5FEA3}|Perchev_Kyrsach\\Perchev_Kyrsach.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\perchev_kyrsach\\perchev_kyrsach\\fields\\abstractfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{384A628B-5C2C-4BFA-937E-5008FBF5FEA3}|Perchev_Kyrsach\\Perchev_Kyrsach.csproj|solutionrelative:perchev_kyrsach\\fields\\abstractfield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{384A628B-5C2C-4BFA-937E-5008FBF5FEA3}|Perchev_Kyrsach\\Perchev_Kyrsach.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\perchev_kyrsach\\perchev_kyrsach\\fields\\gameprocess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{384A628B-5C2C-4BFA-937E-5008FBF5FEA3}|Perchev_Kyrsach\\Perchev_Kyrsach.csproj|solutionrelative:perchev_kyrsach\\fields\\gameprocess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{384A628B-5C2C-4BFA-937E-5008FBF5FEA3}|Perchev_Kyrsach\\Perchev_Kyrsach.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\perchev_kyrsach\\perchev_kyrsach\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{384A628B-5C2C-4BFA-937E-5008FBF5FEA3}|Perchev_Kyrsach\\Perchev_Kyrsach.csproj|solutionrelative:perchev_kyrsach\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Perchev_Kyrsach\\VisialPart\\MainWindow.axaml.cs",
+              "RelativeDocumentMoniker": "VisialPart\\MainWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Perchev_Kyrsach\\VisialPart\\MainWindow.axaml.cs",
+              "RelativeToolTip": "VisialPart\\MainWindow.axaml.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T12:49:53.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Perchev_Kyrsach\\VisialPart\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "VisialPart\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Perchev_Kyrsach\\VisialPart\\MainWindow.axaml",
+              "RelativeToolTip": "VisialPart\\MainWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-30T06:30:31.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Perchev_Kyrsach\\VisialPart\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "VisialPart\\MainWindowViewModel.cs",
+              "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Perchev_Kyrsach\\VisialPart\\MainWindowViewModel.cs",
+              "RelativeToolTip": "VisialPart\\MainWindowViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T05:59:17.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Perchev_Kyrsach\\Perchev_Kyrsach\\Program.cs",
+              "RelativeDocumentMoniker": "Perchev_Kyrsach\\Program.cs",
+              "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Perchev_Kyrsach\\Perchev_Kyrsach\\Program.cs",
+              "RelativeToolTip": "Perchev_Kyrsach\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T09:29:02.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GameProcess.cs",
+              "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Perchev_Kyrsach\\Perchev_Kyrsach\\Fields\\GameProcess.cs",
+              "RelativeDocumentMoniker": "Perchev_Kyrsach\\Fields\\GameProcess.cs",
+              "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Perchev_Kyrsach\\Perchev_Kyrsach\\Fields\\GameProcess.cs",
+              "RelativeToolTip": "Perchev_Kyrsach\\Fields\\GameProcess.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwDkAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T14:44:26.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameBoard.cs",
+              "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Perchev_Kyrsach\\Perchev_Kyrsach\\Fields\\GameBoard.cs",
+              "RelativeDocumentMoniker": "Perchev_Kyrsach\\Fields\\GameBoard.cs",
+              "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Perchev_Kyrsach\\Perchev_Kyrsach\\Fields\\GameBoard.cs",
+              "RelativeToolTip": "Perchev_Kyrsach\\Fields\\GameBoard.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAkwCIAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T09:03:18.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BombField.cs",
+              "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Perchev_Kyrsach\\Perchev_Kyrsach\\Fields\\BombField.cs",
+              "RelativeDocumentMoniker": "Perchev_Kyrsach\\Fields\\BombField.cs",
+              "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Perchev_Kyrsach\\Perchev_Kyrsach\\Fields\\BombField.cs",
+              "RelativeToolTip": "Perchev_Kyrsach\\Fields\\BombField.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T09:28:38.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AbstractField.cs",
+              "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Perchev_Kyrsach\\Perchev_Kyrsach\\Fields\\AbstractField.cs",
+              "RelativeDocumentMoniker": "Perchev_Kyrsach\\Fields\\AbstractField.cs",
+              "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Perchev_Kyrsach\\Perchev_Kyrsach\\Fields\\AbstractField.cs",
+              "RelativeToolTip": "Perchev_Kyrsach\\Fields\\AbstractField.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T09:11:26.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmptyField.cs",
+              "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Perchev_Kyrsach\\Perchev_Kyrsach\\Fields\\EmptyField.cs",
+              "RelativeDocumentMoniker": "Perchev_Kyrsach\\Fields\\EmptyField.cs",
+              "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Perchev_Kyrsach\\Perchev_Kyrsach\\Fields\\EmptyField.cs",
+              "RelativeToolTip": "Perchev_Kyrsach\\Fields\\EmptyField.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T12:53:40.12Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
