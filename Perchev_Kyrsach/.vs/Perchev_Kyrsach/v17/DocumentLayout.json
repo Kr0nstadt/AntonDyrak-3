@@ -1,14 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AntonDyrak-3\\Perchev_Kyrsach\\",
+  "WorkspaceRootPath": "C:\\Users\\iamna\\YandexDisk-mileschko.sibsutis\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430 2023\\AntonDyrak-3\\Perchev_Kyrsach\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E7687481-24F1-4442-AE05-62089A602031}|VisialPart\\VisialPart.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\antondyrak-3\\perchev_kyrsach\\visialpart\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E7687481-24F1-4442-AE05-62089A602031}|VisialPart\\VisialPart.csproj|c:\\users\\iamna\\yandexdisk-mileschko.sibsutis\\\u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430 2023\\antondyrak-3\\perchev_kyrsach\\visialpart\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{E7687481-24F1-4442-AE05-62089A602031}|VisialPart\\VisialPart.csproj|solutionrelative:visialpart\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7687481-24F1-4442-AE05-62089A602031}|VisialPart\\VisialPart.csproj|c:\\users\\iamna\\yandexdisk-mileschko.sibsutis\\\u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430 2023\\antondyrak-3\\perchev_kyrsach\\visialpart\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7687481-24F1-4442-AE05-62089A602031}|VisialPart\\VisialPart.csproj|solutionrelative:visialpart\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7687481-24F1-4442-AE05-62089A602031}|VisialPart\\VisialPart.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\antondyrak-3\\perchev_kyrsach\\visialpart\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{E7687481-24F1-4442-AE05-62089A602031}|VisialPart\\VisialPart.csproj|solutionrelative:visialpart\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+      "AbsoluteMoniker": "D:0:0:{E7687481-24F1-4442-AE05-62089A602031}|VisialPart\\VisialPart.csproj|c:\\users\\iamna\\yandexdisk-mileschko.sibsutis\\\u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430 2023\\antondyrak-3\\perchev_kyrsach\\visialpart\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{E7687481-24F1-4442-AE05-62089A602031}|VisialPart\\VisialPart.csproj|solutionrelative:visialpart\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7687481-24F1-4442-AE05-62089A602031}|VisialPart\\VisialPart.csproj|c:\\users\\iamna\\yandexdisk-mileschko.sibsutis\\\u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430 2023\\antondyrak-3\\perchev_kyrsach\\visialpart\\minesweeperstyles.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{E7687481-24F1-4442-AE05-62089A602031}|VisialPart\\VisialPart.csproj|solutionrelative:visialpart\\minesweeperstyles.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{384A628B-5C2C-4BFA-937E-5008FBF5FEA3}|Perchev_Kyrsach\\Perchev_Kyrsach.csproj|c:\\users\\iamna\\yandexdisk-mileschko.sibsutis\\\u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430 2023\\antondyrak-3\\perchev_kyrsach\\perchev_kyrsach\\fields\\gameboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{384A628B-5C2C-4BFA-937E-5008FBF5FEA3}|Perchev_Kyrsach\\Perchev_Kyrsach.csproj|solutionrelative:perchev_kyrsach\\fields\\gameboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,28 +30,61 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindowViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AntonDyrak-3\\Perchev_Kyrsach\\VisialPart\\MainWindowViewModel.cs",
-              "RelativeDocumentMoniker": "VisialPart\\MainWindowViewModel.cs",
-              "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AntonDyrak-3\\Perchev_Kyrsach\\VisialPart\\MainWindowViewModel.cs",
-              "RelativeToolTip": "VisialPart\\MainWindowViewModel.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAswGMAAAAoAAAA",
+              "DocumentIndex": 2,
+              "Title": "App.axaml",
+              "DocumentMoniker": "C:\\Users\\iamna\\YandexDisk-mileschko.sibsutis\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430 2023\\AntonDyrak-3\\Perchev_Kyrsach\\VisialPart\\App.axaml",
+              "RelativeDocumentMoniker": "VisialPart\\App.axaml",
+              "ToolTip": "C:\\Users\\iamna\\YandexDisk-mileschko.sibsutis\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430 2023\\AntonDyrak-3\\Perchev_Kyrsach\\VisialPart\\App.axaml",
+              "RelativeToolTip": "VisialPart\\App.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-01T14:30:03.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MinesweeperStyles.axaml",
+              "DocumentMoniker": "C:\\Users\\iamna\\YandexDisk-mileschko.sibsutis\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430 2023\\AntonDyrak-3\\Perchev_Kyrsach\\VisialPart\\MinesweeperStyles.axaml",
+              "RelativeDocumentMoniker": "VisialPart\\MinesweeperStyles.axaml",
+              "ToolTip": "C:\\Users\\iamna\\YandexDisk-mileschko.sibsutis\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430 2023\\AntonDyrak-3\\Perchev_Kyrsach\\VisialPart\\MinesweeperStyles.axaml",
+              "RelativeToolTip": "VisialPart\\MinesweeperStyles.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-01T14:29:25.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameBoard.cs",
+              "DocumentMoniker": "C:\\Users\\iamna\\YandexDisk-mileschko.sibsutis\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430 2023\\AntonDyrak-3\\Perchev_Kyrsach\\Perchev_Kyrsach\\Fields\\GameBoard.cs",
+              "RelativeDocumentMoniker": "Perchev_Kyrsach\\Fields\\GameBoard.cs",
+              "ToolTip": "C:\\Users\\iamna\\YandexDisk-mileschko.sibsutis\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430 2023\\AntonDyrak-3\\Perchev_Kyrsach\\Perchev_Kyrsach\\Fields\\GameBoard.cs",
+              "RelativeToolTip": "Perchev_Kyrsach\\Fields\\GameBoard.cs",
+              "ViewState": "AQIAAIUAAAAAAAAAAAAAAJ8AAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T12:08:19.497Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-01T13:43:21.66Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\iamna\\YandexDisk-mileschko.sibsutis\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430 2023\\AntonDyrak-3\\Perchev_Kyrsach\\VisialPart\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "VisialPart\\MainWindowViewModel.cs",
+              "ToolTip": "C:\\Users\\iamna\\YandexDisk-mileschko.sibsutis\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430 2023\\AntonDyrak-3\\Perchev_Kyrsach\\VisialPart\\MainWindowViewModel.cs",
+              "RelativeToolTip": "VisialPart\\MainWindowViewModel.cs",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAAAJIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T12:08:19.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "MainWindow.axaml",
-              "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AntonDyrak-3\\Perchev_Kyrsach\\VisialPart\\MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\iamna\\YandexDisk-mileschko.sibsutis\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430 2023\\AntonDyrak-3\\Perchev_Kyrsach\\VisialPart\\MainWindow.axaml",
               "RelativeDocumentMoniker": "VisialPart\\MainWindow.axaml",
-              "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AntonDyrak-3\\Perchev_Kyrsach\\VisialPart\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\iamna\\YandexDisk-mileschko.sibsutis\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430 2023\\AntonDyrak-3\\Perchev_Kyrsach\\VisialPart\\MainWindow.axaml",
               "RelativeToolTip": "VisialPart\\MainWindow.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-05-01T12:03:33.763Z",

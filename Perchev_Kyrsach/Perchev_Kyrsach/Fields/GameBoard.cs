@@ -13,7 +13,7 @@ namespace Perchev_Kyrsach.Fields
         {
             _fieldSize = size;
             _board = EmptyState(BoardIsBomb(size * size));
-            _bombCount = (size * size) / 6;
+            
         }
 
         public ObservableCollection<AbstractField> Board => _board;
@@ -59,7 +59,7 @@ namespace Perchev_Kyrsach.Fields
         private ObservableCollection<AbstractField> BoardIsBomb(int size)
         {
             Random rnd = new Random();
-            int[] BombIndex = new int[_fieldSize];
+            int[] BombIndex = new int[_bombCount];
             int index = 0;
 
             while (index < BombIndex.Length)
@@ -157,6 +157,6 @@ namespace Perchev_Kyrsach.Fields
 
         private ObservableCollection<AbstractField> _board;
         private readonly int _fieldSize;
-        private readonly int _bombCount;
+        private readonly int _bombCount = 40;
     }
 }

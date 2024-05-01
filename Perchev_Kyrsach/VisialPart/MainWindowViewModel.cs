@@ -142,8 +142,9 @@ namespace VisialPart
 
         private void CheckWin()
         {
-            _isWin = Board.All(x => x is EmptyField { IsOpen: true });
-            //_isWin = Board.Where(x => x is EmptyField).Any(x => x.IsOpen == true);
+            //_isWin = Board.All(x => x is EmptyField { IsOpen: true });
+            _isWin = Board.Where(x => x is EmptyField)
+                .All(x => x.IsOpen);
             if (_isWin)
             {
                 _timer.Stop();
