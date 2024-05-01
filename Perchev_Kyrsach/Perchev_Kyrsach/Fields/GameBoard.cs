@@ -11,8 +11,9 @@ namespace Perchev_Kyrsach.Fields
     {
         public GameBoard(int size)
         {
-            _bombCount = size;
+            _fieldSize = size;
             _board = EmptyState(BoardIsBomb(size * size));
+            _bombCount = (size * size) / 6;
         }
 
         public ObservableCollection<AbstractField> Board => _board;
@@ -58,7 +59,7 @@ namespace Perchev_Kyrsach.Fields
         private ObservableCollection<AbstractField> BoardIsBomb(int size)
         {
             Random rnd = new Random();
-            int[] BombIndex = new int[_bombCount];
+            int[] BombIndex = new int[_fieldSize];
             int index = 0;
 
             while (index < BombIndex.Length)
@@ -85,14 +86,14 @@ namespace Perchev_Kyrsach.Fields
         }
         private ObservableCollection<AbstractField> EmptyState(ObservableCollection<AbstractField> array)
         {
-            int sizeX = _bombCount;
-            int sizeY = _bombCount;
+            int sizeX = _fieldSize;
+            int sizeY = _fieldSize;
 
             for (int y = 0; y < sizeY; ++y)
             {
                 for (int x = 0; x < sizeX; ++x)
                 {
-                    if (array[y * _bombCount + x] is BombField)
+                    if (array[y * _fieldSize + x] is BombField)
                     {
                         SetBombCounterAroundBomb(x, y, array);
                     }
@@ -108,10 +109,10 @@ namespace Perchev_Kyrsach.Fields
             {
                 for (int j = -1; j < 2; ++j)
                 {
-                    if (x + j > -1 && x + j < _bombCount &&
-                        y + i > -1 && y + i < _bombCount)
+                    if (x + j > -1 && x + j < _fieldSize &&
+                        y + i > -1 && y + i < _fieldSize)
                     {
-                        if (array[(y + i) * _bombCount + x + j] is EmptyField emptyField)
+                        if (array[(y + i) * _fieldSize + x + j] is EmptyField emptyField)
                         {
                             ++emptyField.BombCount;
                         }
@@ -122,10 +123,10 @@ namespace Perchev_Kyrsach.Fields
 
         private int GetCell(int x, int y)
         {
-            if (x > -1 && x < _bombCount &&
-                        y > -1 && y < _bombCount)
+            if (x > -1 && x < _fieldSize &&
+                        y > -1 && y < _fieldSize)
             {
-                return y * _bombCount + x;
+                return y * _fieldSize + x;
             }
             return -1;
         }
@@ -143,7 +144,7 @@ namespace Perchev_Kyrsach.Fields
 
             foreach (AbstractField abstractField in _board)
             {
-                if (i >= _bombCount)
+                if (i >= _fieldSize)
                 {
                     res += "\n";
                     i = 0;
@@ -155,6 +156,7 @@ namespace Perchev_Kyrsach.Fields
         }
 
         private ObservableCollection<AbstractField> _board;
+        private readonly int _fieldSize;
         private readonly int _bombCount;
     }
 }

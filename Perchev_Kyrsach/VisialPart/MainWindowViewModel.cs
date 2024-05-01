@@ -1,27 +1,31 @@
-﻿using Avalonia.Controls.Documents;
-using Avalonia.Styling;
-using Perchev_Kyrsach.Fields;
+﻿using Perchev_Kyrsach.Fields;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Threading.Tasks;
+using Avalonia.Threading;
 
 namespace VisialPart
 {
     public class MainWindowViewModel : INotifyPropertyChanged
     {
-        private readonly int size = 16;
+        
         public MainWindowViewModel()
         {
-            _board = new GameBoard(size);
+            _board = new GameBoard(_size);
+            Board = new ObservableCollection<AbstractField>(_board.Board);
         }
 
-        public ObservableCollection<AbstractField> Board => _board.Board;
+        public ObservableCollection<AbstractField> Board
+        {
+            get => _cells;
+            set
+            {
+                SetField(ref _cells, value);
+            }
+        } 
 
         public bool IsStart
         {
@@ -50,15 +54,33 @@ namespace VisialPart
             }
         }
 
+        public int Seconds
+        {
+            get => _seconds;
+            set
+            {
+                SetField(ref _seconds, value);
+            }
+        }
+
+        public string NickName
+        {
+            get => _nickName;
+            set
+            {
+                SetField(ref _nickName, value);
+            }
+        }
+
         public void OpenCell(object cell)
         {
             if(CanPlay())
             {
-                for (int y = 0; y < size; ++y)
+                for (int y = 0; y < _size; ++y)
                 {
-                    for (int x = 0; x < size; ++x)
+                    for (int x = 0; x < _size; ++x)
                     {
-                        if (Board[y * size + x] == cell)
+                        if (Board[y * _size + x] == cell)
                         {
                             _board.OpenCell(x, y);
                             CheckWin();
@@ -88,7 +110,19 @@ namespace VisialPart
 
         public void StartGame(object o)
         {
-            IsStart = true;
+            if (!string.IsNullOrEmpty(NickName) &&
+                !string.IsNullOrWhiteSpace(NickName))
+            {
+                IsStart = true;
+                IsWin = false;
+                IsDefeat = false;
+                Seconds = 0;
+                _board = new GameBoard(_size);
+                Board = new ObservableCollection<AbstractField>(_board.Board);
+                _timer = new DispatcherTimer(TimeSpan.FromSeconds(1),
+                    DispatcherPriority.Normal,
+                    (s, e) => { ++Seconds; });
+            }
         }
 
         public event PropertyChangedEventHandler? PropertyChanged;
@@ -109,6 +143,10 @@ namespace VisialPart
         private void CheckWin()
         {
             _isWin = Board.All(x => x is EmptyField { IsOpen: true });
+            if (_isWin)
+            {
+                _timer.Stop();
+            }
         }
 
         private void CheckDefeat()
@@ -117,21 +155,25 @@ namespace VisialPart
 
             if(_isDefeat)
             {
+                _timer.Stop();
                 foreach (AbstractField cell in Board)
                 {
-                    if (cell is BombField bombField)
+                    if (cell is BombField {Flag:false} bombField)
                     {
                         bombField.IsOpen = true;
                     }
                 }
             }
-            
         }
 
         private bool _isStart;
         private bool _isWin;
         private bool _isDefeat;
+        private readonly int _size = 16;
         private GameBoard _board;
-
+        private ObservableCollection<AbstractField> _cells;
+        private int _seconds;
+        private DispatcherTimer _timer;
+        private string _nickName;
     }
 }

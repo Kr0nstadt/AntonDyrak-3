@@ -6,6 +6,7 @@
 		xmlns:fields="clr-namespace:Perchev_Kyrsach.Fields;assembly=Perchev_Kyrsach"
 		mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
 		Width="644" Height="708"
+		CanResize="False"
         x:Class="VisialPart.MainWindow"
         Title="VisialPart">
 
@@ -15,7 +16,14 @@
 
 	<Window.Styles>
 		<Style Selector="Button.BombOpen">
-			<Setter Property="Content" Value="B"/>
+			<Setter Property="Content">
+				<Setter.Value>
+					<Template>
+						<Image Source="avares://VisialPart/Icons/free.png"/>
+					</Template>
+                </Setter.Value>
+            </Setter>
+
 		</Style>
 
 		<Style Selector="Button.EmptyOpen">
@@ -50,12 +58,22 @@
 	</Window.DataTemplates>
 
 	<Grid RowDefinitions="Auto, *" ColumnDefinitions="*, 50,*">
-		<Button
+		<TextBox 
+            x:DataType="vm:MainWindowViewModel"
+            Text="{Binding NickName}"
+            Watermark="Введите своё имя"/>
+        <Button
 			Command="{Binding StartGame}" x:DataType="vm:MainWindowViewModel"
-			Grid.Column="1" Width="50" Height="50">Smile</Button>
-		<TextBox Grid.Column="3"/>
+			Grid.Column="1" Width="50" Height="50">
+			<Image Source="Icons/happy.png"/>
+        </Button>
+		<TextBox 
+			Text="{Binding Seconds}"
+            x:DataType="vm:MainWindowViewModel"
+            Grid.Row="0" 
+            Grid.Column="2"/>
 		
-		<ItemsControl Grid.Row="1" Grid.ColumnSpan="3" 
+		<ItemsControl Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="3" 
 					  ItemsSource="{Binding Board}"
 					  x:DataType="vm:MainWindowViewModel">
 			<ItemsControl.ItemsPanel>
