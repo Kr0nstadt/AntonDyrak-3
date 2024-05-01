@@ -1,0 +1,17 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="LAB4.MainWindow"
+        Title="LAB4">
+	<ScrollViewer>
+		<StackPanel>
+			<TextBlock Text="Введите мощность множества :" FontSize="20" Background="BlueViolet"/>
+			<TextBox Name="N"/>
+			<Button HorizontalAlignment="Center" Click="ButtonClicked">Сохранить</Button>
+			<TextBlock Name="Exp" Text=""/>
+			<TextBlock Name="Res" Text=""/>
+		</StackPanel>
+	</ScrollViewer>
+</Window>

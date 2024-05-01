@@ -1,0 +1,14 @@
+C:\Users\karpo\OneDrive\Рабочий стол\Novogilov\Implementation\bin\Debug\net8.0\Implementation.exe
+C:\Users\karpo\OneDrive\Рабочий стол\Novogilov\Implementation\bin\Debug\net8.0\Implementation.deps.json
+C:\Users\karpo\OneDrive\Рабочий стол\Novogilov\Implementation\bin\Debug\net8.0\Implementation.runtimeconfig.json
+C:\Users\karpo\OneDrive\Рабочий стол\Novogilov\Implementation\bin\Debug\net8.0\Implementation.dll
+C:\Users\karpo\OneDrive\Рабочий стол\Novogilov\Implementation\bin\Debug\net8.0\Implementation.pdb
+C:\Users\karpo\OneDrive\Рабочий стол\Novogilov\Implementation\obj\Debug\net8.0\Implementation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karpo\OneDrive\Рабочий стол\Novogilov\Implementation\obj\Debug\net8.0\Implementation.AssemblyInfoInputs.cache
+C:\Users\karpo\OneDrive\Рабочий стол\Novogilov\Implementation\obj\Debug\net8.0\Implementation.AssemblyInfo.cs
+C:\Users\karpo\OneDrive\Рабочий стол\Novogilov\Implementation\obj\Debug\net8.0\Implementation.csproj.CoreCompileInputs.cache
+C:\Users\karpo\OneDrive\Рабочий стол\Novogilov\Implementation\obj\Debug\net8.0\Implementation.dll
+C:\Users\karpo\OneDrive\Рабочий стол\Novogilov\Implementation\obj\Debug\net8.0\refint\Implementation.dll
+C:\Users\karpo\OneDrive\Рабочий стол\Novogilov\Implementation\obj\Debug\net8.0\Implementation.pdb
+C:\Users\karpo\OneDrive\Рабочий стол\Novogilov\Implementation\obj\Debug\net8.0\Implementation.genruntimeconfig.cache
+C:\Users\karpo\OneDrive\Рабочий стол\Novogilov\Implementation\obj\Debug\net8.0\ref\Implementation.dll

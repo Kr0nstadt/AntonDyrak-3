@@ -1,0 +1,41 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:lab2="clr-namespace:LAB_2"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="LAB_2.MainWindow"
+        Title="LAB_2">
+	<TabControl x:DataType="lab2:AttitubeInfo">
+		
+			<StackPanel>
+				<Border Margin="5"
+				  CornerRadius="10"
+				  Background="BlueViolet">
+					<TextBlock Margin="5"
+					   FontSize="27"
+					   HorizontalAlignment="Center"
+					   Text="Введите множества">
+					</TextBlock>
+				</Border>
+				<StackPanel>
+					<Grid ShowGridLines="True"  Margin="5"
+			  ColumnDefinitions="120, Auto"
+			  RowDefinitions="Auto, Auto, Auto">
+						<Label Grid.Row="0" Grid.Column="0" Margin="10">A</Label>
+						<TextBox Name="AString" Grid.Row="0" Grid.Column="1" Margin="05" Text=""/>
+						<Label Grid.Row="1" Grid.Column="0" Margin="10">R</Label>
+						<TextBox Name="RString" Grid.Row="1"  Grid.Column="1" Margin="05" Text="" />
+
+					</Grid>
+				</StackPanel>
+
+				<Button HorizontalAlignment="Center" Click="ButtonClicked">Сохранить</Button>
+				<TextBlock Name = "Exeption" Text=" "></TextBlock>
+				<TextBlock Name="InfoR" Text=" "></TextBlock>
+			</StackPanel>
+		
+
+		
+	</TabControl>
+</Window>
