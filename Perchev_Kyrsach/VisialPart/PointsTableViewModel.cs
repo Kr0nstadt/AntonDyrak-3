@@ -10,9 +10,9 @@ public class PointsTableViewModel : INotifyPropertyChanged
 {
     public PointsTableViewModel(Repository repository)
     {
-        _repo = repository;
+        _repository = repository;
     }
-    public IEnumerable<User> Users => _repo.Load();
+    public IEnumerable<User> Users => _repository.Load();
 
     public event PropertyChangedEventHandler? PropertyChanged;
 
@@ -29,5 +29,5 @@ public class PointsTableViewModel : INotifyPropertyChanged
         return true;
     }
 
-    private Repository _repo;
+    private Repository _repository;
 }

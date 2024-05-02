@@ -157,6 +157,6 @@ namespace Perchev_Kyrsach.Fields
 
         private ObservableCollection<AbstractField> _board;
         private readonly int _fieldSize;
-        private readonly int _bombCount = 40;
+        private readonly int _bombCount = 10;
     }
 }

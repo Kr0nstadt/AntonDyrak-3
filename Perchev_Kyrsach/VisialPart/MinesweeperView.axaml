@@ -1,0 +1,72 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:fields="clr-namespace:Perchev_Kyrsach.Fields;assembly=Perchev_Kyrsach"
+             xmlns:vm="clr-namespace:VisialPart"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="VisialPart.MinesweeperView">
+
+	<UserControl.DataTemplates>
+		<DataTemplate x:DataType="fields:BombField">
+			<Button
+				PointerPressed="CellPressedRightButtonClick"
+				Command="{Binding $parent[UserControl].((vm:MinesweeperViewModel)DataContext).OpenCell}"
+					CommandParameter="{Binding}"
+					Padding="0"
+					Height="40" Width="40"
+					Classes.BombOpen="{Binding IsOpen}"
+					Classes.Flag="{Binding Flag}"/>
+		</DataTemplate>
+
+		<DataTemplate x:DataType="fields:EmptyField">
+			<Button
+				PointerPressed="CellPressedRightButtonClick"
+				Padding="0"
+				Command="{Binding $parent[UserControl].((vm:MinesweeperViewModel)DataContext).OpenCell}"
+				CommandParameter="{Binding}"
+				Height="40" Width="40"
+				Classes.EmptyOpen="{Binding IsOpen}"
+				Classes.Flag="{Binding Flag}"/>
+		</DataTemplate>
+	</UserControl.DataTemplates>
+
+<Grid RowDefinitions="Auto, *" ColumnDefinitions="*,65, 65, 65, *" Background="Pink">
+	<TextBox
+        FontSize="30"
+        x:DataType="vm:MinesweeperViewModel"
+        Text="{Binding NickName}"
+		Background="PaleVioletRed"
+        Watermark="Введите своё имя"/>
+
+	<Button Grid.Row="0" Grid.Column="1"
+            Width="65" Height="65" Padding="0"
+            Command="{Binding $parent[Window].((vm:MainWindowViewModel)DataContext).ChangeViewModel}">
+        Table
+    </Button>
+
+    <Button
+		Command="{Binding StartGame}" x:DataType="vm:MinesweeperViewModel"
+		Grid.Column="2" Width="65" Height="65" Padding="0">
+		<Image Source="Icons/happy.jpg"/>
+    </Button>
+	<TextBlock 
+		Text="{Binding Seconds}"
+        FontSize="30"
+        x:DataType="vm:MinesweeperViewModel"
+		Background="PaleVioletRed"
+        Grid.Row="0" 
+        Grid.Column="3"
+        Grid.ColumnSpan="2"/>
+	
+	<ItemsControl Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="5" 
+				  ItemsSource="{Binding Board}"
+				  x:DataType="vm:MinesweeperViewModel">
+		<ItemsControl.ItemsPanel>
+			<ItemsPanelTemplate>
+				<WrapPanel/>
+			</ItemsPanelTemplate>
+		</ItemsControl.ItemsPanel>
+	</ItemsControl>
+</Grid>
+</UserControl>

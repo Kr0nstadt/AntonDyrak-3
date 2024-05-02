@@ -14,63 +14,19 @@
 		<vm:MainWindowViewModel/>
 	</Window.DataContext>
 
+	<Window.DataTemplates>
+		<DataTemplate x:DataType="vm:MinesweeperViewModel">
+			<vm:MinesweeperView/>
+        </DataTemplate>
+
+        <DataTemplate x:DataType="vm:PointsTableViewModel">
+            <vm:PointsTableView/>
+        </DataTemplate>
+    </Window.DataTemplates>
+
 	<Window.Styles>
 		<StyleInclude Source="MinesweeperStyles.axaml"/>
 	</Window.Styles>
 
-	<Window.DataTemplates>
-		<DataTemplate x:DataType="fields:BombField">
-			<Button
-				PointerPressed="CellPressedRightButtonClick"
-				Command="{Binding $parent[Window].((vm:MainWindowViewModel)DataContext).OpenCell}"
-					CommandParameter="{Binding}"
-					Padding="0"
-					Height="40" Width="40" 
-					Classes.BombOpen="{Binding IsOpen}"
-					Classes.Flag="{Binding Flag}"/>
-		</DataTemplate>
-
-		<DataTemplate x:DataType="fields:EmptyField">
-			<Button
-				PointerPressed="CellPressedRightButtonClick"
-				Padding="0"
-				Command="{Binding $parent[Window].((vm:MainWindowViewModel)DataContext).OpenCell}"
-				CommandParameter="{Binding}"
-				Height="40" Width="40"
-				Classes.EmptyOpen="{Binding IsOpen}"
-				Classes.Flag="{Binding Flag}"/>
-		</DataTemplate>
-	</Window.DataTemplates>
-
-	<Grid RowDefinitions="Auto, *" ColumnDefinitions="*, 65,*" Background="Pink">
-		<TextBox
-            FontSize="30"
-            x:DataType="vm:MainWindowViewModel"
-            Text="{Binding NickName}"
-			Background="PaleVioletRed"
-            Watermark="Введите своё имя"/>
-
-        <Button
-			Command="{Binding StartGame}" x:DataType="vm:MainWindowViewModel"
-			Grid.Column="1" Width="65" Height="65" Padding="0">
-			<Image Source="Icons/happy.jpg"/>
-        </Button>
-		<TextBlock 
-			Text="{Binding Seconds}"
-            FontSize="30"
-            x:DataType="vm:MainWindowViewModel"
-			Background="PaleVioletRed"
-            Grid.Row="0" 
-            Grid.Column="2"/>
-		
-		<ItemsControl Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="3" 
-					  ItemsSource="{Binding Board}"
-					  x:DataType="vm:MainWindowViewModel">
-			<ItemsControl.ItemsPanel>
-				<ItemsPanelTemplate>
-					<WrapPanel/>
-				</ItemsPanelTemplate>
-			</ItemsControl.ItemsPanel>
-		</ItemsControl>
-	</Grid>
+	<ContentControl Content="{Binding Context}" x:DataType="vm:MainWindowViewModel"/>
 </Window>
