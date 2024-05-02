@@ -18,7 +18,7 @@ public class Repository : IDisposable, IAsyncDisposable
 
     public IEnumerable<User> Load()
     {
-        string sql = "select * from Users order by points desc limit 10";
+        string sql = "select * from Users order by points limit 10";
         return _connection.Query<User>(sql);
     }
 
