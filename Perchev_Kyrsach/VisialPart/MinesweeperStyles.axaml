@@ -1,0 +1,45 @@
+<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:fields="clr-namespace:Perchev_Kyrsach.Fields;assembly=Perchev_Kyrsach">
+  <Design.PreviewWith>
+    <Border Padding="20">
+      <!-- Add Controls for Previewer Here -->
+    </Border>
+  </Design.PreviewWith>
+
+	<Style Selector="Button.BombOpen">
+        <Setter Property="Content">
+            <Setter.Value>
+                <Template>
+                    <Image Source="avares://VisialPart/Icons/free.jpg"/>
+                </Template>
+            </Setter.Value>
+        </Setter>
+
+    </Style>
+
+    <Style Selector="TextBox:focus /template/ Border#PART_BorderElement">
+        <Setter Property="Background" Value="PaleVioletRed"/>
+    </Style>
+
+    <Style Selector="Button.EmptyOpen">
+        <Setter Property="Content" Value="{Binding BombCount}" x:DataType="fields:EmptyField"/>
+    </Style>
+
+    <Style Selector="Button.EmptyOpen">
+        <Setter Property="FontSize" Value="27" x:DataType="fields:EmptyField"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center" x:DataType="fields:EmptyField"/>
+        <Setter Property="VerticalContentAlignment" Value="Center" x:DataType="fields:EmptyField"/>
+        <Setter Property="Background" Value="LightPink" x:DataType="fields:EmptyField"/>
+    </Style>
+
+    <Style Selector="Button.Flag">
+        <Setter Property="Content" >
+            <Setter.Value>
+                <Template>
+                    <Image Source="avares://VisialPart/Icons/flag.jpg"/>
+                </Template>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</Styles>

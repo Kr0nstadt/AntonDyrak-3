@@ -12,20 +12,5 @@ namespace VisialPart
         {
             InitializeComponent();
         }
-
-        public void CellPressedRightButtonClick(object sender, PointerPressedEventArgs pointerEventArgs)
-        {
-            if(sender is Button button)
-            {
-                PointerPoint p = pointerEventArgs.GetCurrentPoint(button);
-                if (p.Properties.IsRightButtonPressed && 
-                    button.DataContext is AbstractField cell &&
-                    this.DataContext is MainWindowViewModel vm)
-                {
-                    vm.SetFlag(cell);
-                }
-            }
-            
-        }
     }
 }

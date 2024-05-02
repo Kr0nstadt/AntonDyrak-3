@@ -1,0 +1,32 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="clr-namespace:VisialPart"
+             xmlns:model="clr-namespace:Perchev_Kyrsach.Model;assembly=Perchev_Kyrsach"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="VisialPart.PointsTableView">
+  
+    <UserControl.DataTemplates>
+        <DataTemplate x:DataType="model:User">
+            <Grid ColumnDefinitions="*, *">
+                <TextBlock Grid.Column="0" Text="{Binding Name}"/>
+                <TextBlock Grid.Column="1" Text="{Binding Points}"/>
+            </Grid>
+        </DataTemplate>
+    </UserControl.DataTemplates>
+    
+    <Grid RowDefinitions="*,Auto">
+        <ListBox ItemsSource="{Binding Users}" 
+                 x:DataType="vm:PointsTableViewModel"/>
+
+        <Button Grid.Row="1" 
+                HorizontalAlignment="Stretch"
+                HorizontalContentAlignment="Center"
+                Command="{Binding $parent[Window].((vm:MainWindowViewModel)DataContext).ChangeViewModel}">
+            Назад
+        </Button>
+    </Grid>
+    
+
+</UserControl>
