@@ -1,5 +1,7 @@
 ﻿using Perchev_Kyrsach.Fields;
 using System.Drawing;
+using Perchev_Kyrsach.Model;
+
 /*
 int n = 5;
 GameBoard board = new GameBoard(n);
@@ -12,7 +14,7 @@ for (int i = 0; i < n; i++)
     Console.WriteLine();
 }
 Console.WriteLine(board.Board[4].CellState);*/
-int n = 10;
+/*int n = 10;
 GameBoard board = new GameBoard(n);
 
 int i = 0;
@@ -29,3 +31,16 @@ foreach (AbstractField abstractField in board.Board)
 Console.WriteLine("\n\n");
 board.OpenCell(5, 5);
 Console.WriteLine(board.ToString());
+*/
+
+Repository repo = new Repository("C:\\Users\\iamna\\YandexDisk-mileschko.sibsutis\\Информатика 2023\\AntonDyrak-3\\Perchev_Kyrsach\\Perchev_Kyrsach\\PointsDB.db");
+
+repo.Save(new User{ Name = "Valentina", Points = 105});
+
+var users = repo.Load();
+
+foreach (User user in users)
+{
+    Console.WriteLine($"{user.Name} {user.Points}");
+}
+
