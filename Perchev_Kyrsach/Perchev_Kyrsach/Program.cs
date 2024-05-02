@@ -33,9 +33,9 @@ board.OpenCell(5, 5);
 Console.WriteLine(board.ToString());
 */
 
-Repository repo = new Repository("C:\\Users\\iamna\\YandexDisk-mileschko.sibsutis\\Информатика 2023\\AntonDyrak-3\\Perchev_Kyrsach\\Perchev_Kyrsach\\PointsDB.db");
+Repository repo = new Repository("C:\\Users\\karpo\\OneDrive\\Рабочий стол\\AntonDyrak-3\\Perchev_Kyrsach\\Perchev_Kyrsach\\PointsDB.db");
 
-repo.Save(new User{ Name = "Valentina", Points = 105});
+repo.Save(new User{ Name = "Штирлиц", Points = 15});
 
 var users = repo.Load();
 

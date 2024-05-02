@@ -15,14 +15,24 @@
             </Grid>
         </DataTemplate>
     </UserControl.DataTemplates>
-    
-    <Grid RowDefinitions="*,Auto">
-        <ListBox ItemsSource="{Binding Users}" 
-                 x:DataType="vm:PointsTableViewModel"/>
+	
+	<UserControl.Resources>
+		<ImageBrush Stretch="UniformToFill" Opacity="0.6" x:Key="BackgroundImage" Source="Icons/hoba.jpg"/>
+	</UserControl.Resources>
+
+
+	<Grid RowDefinitions="*,Auto"
+		 Background="LightPink">
+		<ListBox ItemsSource="{Binding Users}"
+				 Background="{StaticResource BackgroundImage}"
+                 x:DataType="vm:PointsTableViewModel"
+				 />
+
 
         <Button Grid.Row="1" 
                 HorizontalAlignment="Stretch"
                 HorizontalContentAlignment="Center"
+				Background="PaleVioletRed"
                 Command="{Binding $parent[Window].((vm:MainWindowViewModel)DataContext).ChangeViewModel}">
             Назад
         </Button>

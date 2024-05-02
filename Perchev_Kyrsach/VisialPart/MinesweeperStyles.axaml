@@ -15,8 +15,9 @@
                 </Template>
             </Setter.Value>
         </Setter>
+	</Style>
 
-    </Style>
+		
 
     <Style Selector="TextBox:focus /template/ Border#PART_BorderElement">
         <Setter Property="Background" Value="PaleVioletRed"/>

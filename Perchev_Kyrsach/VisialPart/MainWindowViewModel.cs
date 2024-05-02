@@ -17,7 +17,7 @@ namespace VisialPart
         {
             _repository =
                 new Repository(
-                    "C:\\Users\\iamna\\YandexDisk-mileschko.sibsutis\\Информатика 2023\\AntonDyrak-3\\Perchev_Kyrsach\\Perchev_Kyrsach\\PointsDB.db");
+                    "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\AntonDyrak-3\\Perchev_Kyrsach\\Perchev_Kyrsach\\PointsDB.db");
             Context = new MinesweeperViewModel(_repository);
         }
 

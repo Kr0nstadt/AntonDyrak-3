@@ -19,6 +19,7 @@
 					Classes.Flag="{Binding Flag}"/>
 		</DataTemplate>
 
+
 		<DataTemplate x:DataType="fields:EmptyField">
 			<Button
 				PointerPressed="CellPressedRightButtonClick"
@@ -31,18 +32,22 @@
 		</DataTemplate>
 	</UserControl.DataTemplates>
 
+	<UserControl.Resources>
+		<ImageBrush Stretch="UniformToFill" Opacity="1" x:Key="BackgroundImageTimer" Source="Icons/Timer.png"/>
+	</UserControl.Resources>
+
 <Grid RowDefinitions="Auto, *" ColumnDefinitions="*,65, 65, 65, *" Background="Pink">
 	<TextBox
         FontSize="30"
         x:DataType="vm:MinesweeperViewModel"
         Text="{Binding NickName}"
-		Background="PaleVioletRed"
-        Watermark="Введите своё имя"/>
+		Background="{StaticResource BackgroundImageTimer}"
+        Watermark="Введите имя"/>
 
 	<Button Grid.Row="0" Grid.Column="1"
             Width="65" Height="65" Padding="0"
             Command="{Binding $parent[Window].((vm:MainWindowViewModel)DataContext).ChangeViewModel}">
-        Table
+		<Image Source="avares://VisialPart/Icons/flover.png"/>
     </Button>
 
     <Button
@@ -53,8 +58,11 @@
 	<TextBlock 
 		Text="{Binding Seconds}"
         FontSize="30"
+		
         x:DataType="vm:MinesweeperViewModel"
-		Background="PaleVioletRed"
+		Background="{StaticResource BackgroundImageTimer}"
+		TextAlignment="Center"
+		
         Grid.Row="0" 
         Grid.Column="3"
         Grid.ColumnSpan="2"/>
