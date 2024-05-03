@@ -12,3 +12,18 @@ C:\Users\karpo\OneDrive\Рабочий стол\SAOD lab 2\SAOD lab 2\obj\Debug\
 C:\Users\karpo\OneDrive\Рабочий стол\SAOD lab 2\SAOD lab 2\obj\Debug\net8.0\SAOD lab 2.pdb
 C:\Users\karpo\OneDrive\Рабочий стол\SAOD lab 2\SAOD lab 2\obj\Debug\net8.0\SAOD lab 2.genruntimeconfig.cache
 C:\Users\karpo\OneDrive\Рабочий стол\SAOD lab 2\SAOD lab 2\obj\Debug\net8.0\ref\SAOD lab 2.dll
+C:\Users\karpo\OneDrive\Рабочий стол\AntonDyrak-3\SAOD_lab_2\SAOD lab 2\bin\Debug\net8.0\SAOD lab 2.exe
+C:\Users\karpo\OneDrive\Рабочий стол\AntonDyrak-3\SAOD_lab_2\SAOD lab 2\bin\Debug\net8.0\SAOD lab 2.deps.json
+C:\Users\karpo\OneDrive\Рабочий стол\AntonDyrak-3\SAOD_lab_2\SAOD lab 2\bin\Debug\net8.0\SAOD lab 2.runtimeconfig.json
+C:\Users\karpo\OneDrive\Рабочий стол\AntonDyrak-3\SAOD_lab_2\SAOD lab 2\bin\Debug\net8.0\SAOD lab 2.dll
+C:\Users\karpo\OneDrive\Рабочий стол\AntonDyrak-3\SAOD_lab_2\SAOD lab 2\bin\Debug\net8.0\SAOD lab 2.pdb
+C:\Users\karpo\OneDrive\Рабочий стол\AntonDyrak-3\SAOD_lab_2\SAOD lab 2\obj\Debug\net8.0\SAOD lab 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\karpo\OneDrive\Рабочий стол\AntonDyrak-3\SAOD_lab_2\SAOD lab 2\obj\Debug\net8.0\SAOD lab 2.AssemblyInfoInputs.cache
+C:\Users\karpo\OneDrive\Рабочий стол\AntonDyrak-3\SAOD_lab_2\SAOD lab 2\obj\Debug\net8.0\SAOD lab 2.AssemblyInfo.cs
+C:\Users\karpo\OneDrive\Рабочий стол\AntonDyrak-3\SAOD_lab_2\SAOD lab 2\obj\Debug\net8.0\SAOD lab 2.csproj.CoreCompileInputs.cache
+C:\Users\karpo\OneDrive\Рабочий стол\AntonDyrak-3\SAOD_lab_2\SAOD lab 2\obj\Debug\net8.0\SAOD lab 2.sourcelink.json
+C:\Users\karpo\OneDrive\Рабочий стол\AntonDyrak-3\SAOD_lab_2\SAOD lab 2\obj\Debug\net8.0\SAOD lab 2.dll
+C:\Users\karpo\OneDrive\Рабочий стол\AntonDyrak-3\SAOD_lab_2\SAOD lab 2\obj\Debug\net8.0\refint\SAOD lab 2.dll
+C:\Users\karpo\OneDrive\Рабочий стол\AntonDyrak-3\SAOD_lab_2\SAOD lab 2\obj\Debug\net8.0\SAOD lab 2.pdb
+C:\Users\karpo\OneDrive\Рабочий стол\AntonDyrak-3\SAOD_lab_2\SAOD lab 2\obj\Debug\net8.0\SAOD lab 2.genruntimeconfig.cache
+C:\Users\karpo\OneDrive\Рабочий стол\AntonDyrak-3\SAOD_lab_2\SAOD lab 2\obj\Debug\net8.0\ref\SAOD lab 2.dll

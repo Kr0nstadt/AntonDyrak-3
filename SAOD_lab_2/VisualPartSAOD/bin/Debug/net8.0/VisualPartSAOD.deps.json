@@ -15,6 +15,7 @@
           "Avalonia.Themes.Fluent": "11.0.6",
           "Digital": "1.0.0",
           "DynamicDataStructure": "1.0.0",
+          "Hash": "1.0.0",
           "LiveChartsCore.SkiaSharpView.Avalonia": "2.0.0-rc2"
         },
         "runtime": {
@@ -974,6 +975,11 @@
           "DynamicDataStructure.dll": {}
         }
       },
+      "Hash/1.0.0": {
+        "runtime": {
+          "Hash.dll": {}
+        }
+      },
       "SAOD lab 2/1.0.0": {
         "runtime": {
           "SAOD lab 2.dll": {}
@@ -1511,6 +1517,11 @@
       "sha512": ""
     },
     "DynamicDataStructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Hash/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

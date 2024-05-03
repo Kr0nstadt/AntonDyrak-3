@@ -28,7 +28,6 @@
 		<TabItem Header="SuperShell">
 			<con:UserControlSuper/>
 		</TabItem>
-		-->
 
 		<TabItem Header="BinarySearch">
 			<con:BinarySearchUseControl/>
@@ -52,6 +51,11 @@
 
 		<TabItem Header="DigitalSort">
 			<con:DigitSortUserControl/>
+		</TabItem>
+		-->
+
+		<TabItem Header="DigitalSort">
+			<con:UserControlHash/>
 		</TabItem>
 		
     </TabControl>

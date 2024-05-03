@@ -8,3 +8,4 @@ for(int i = 0; i < 50; i++)
 Console.WriteLine();
 BaseHashIntArray hash = new BaseHashIntArray(randomInt,5);
 Console.WriteLine(hash.ToString());
+Console.WriteLine(hash.Cal);

@@ -42,7 +42,7 @@ namespace Hash
             string t = "";
             for(int i = 0; i < _hashTableSize; i++)
             {
-                t += $"{i} : {_hashTable[i].ToString()}\n";
+                t += $"{i} : {ListToString(_hashTable[i])}\n";
             }
             return t;
         }
@@ -92,6 +92,16 @@ namespace Hash
             }
         }
 
+        private string ListToString(List<int> list)
+        {
+            string t = " ";
+            foreach(int i in list)
+            {
+                t += i + " ";
+            }
+            return t;
+        }
+
         private void SearchHeshArray ()
         {
             _searchRes = _hashTable[IntToHash(_key)];
@@ -99,14 +109,21 @@ namespace Hash
         private List<int>[] HashTableMaker()
         {
             List<int>[] HashTable = new List<int>[_hashTableSize];
+            List<int> Callision = new List<int>();
             for(int i = 0; i < Data.Length; i++)
             {
                 if (HashTable[IntToHash(Data[i])] is null)
                 {
                     HashTable[IntToHash(Data[i])] = new List<int>();
+                    
                 }
                 HashTable[IntToHash(Data[i])].Add(Data[i]);
+                if (!Callision.Contains(IntToHash(Data[i])))
+                {
+                    Callision.Add(IntToHash(Data[i]));
+                }
             }
+            Cal = Data.Length - Callision.Count;
             return HashTable;
         }
 

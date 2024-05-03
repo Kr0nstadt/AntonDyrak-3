@@ -1,0 +1,58 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+			 xmlns:avalonia="clr-namespace:LiveChartsCore.SkiaSharpView.Avalonia;assembly=LiveChartsCore.SkiaSharpView.Avalonia"
+             xmlns:iavm="clr-namespace:VisualPartSAOD.ViewModel.Lab2"
+             xmlns:lvc="using:LiveChartsCore.SkiaSharpView.Avalonia"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="VisualPartSAOD.UserControlHash">
+	<TabControl x:DataType="iavm:HashTableInfo">
+		<TabControl.DataContext>
+			<iavm:DigitalSortInfo/>
+		</TabControl.DataContext>
+
+		<TabItem Header="Списки">
+			<ScrollViewer
+				HorizontalScrollBarVisibility="Auto"
+				Height="{Binding $parent[TabItem].Height}"
+				Width="{Binding $parent[TabItem].Width}">
+				<StackPanel>
+					<TextBlock Text="{Binding HashViewModel}"/>
+
+				</StackPanel>
+			</ScrollViewer>
+		</TabItem>
+
+
+		<TabItem Header="Таблица">
+			<ScrollViewer HorizontalScrollBarVisibility="Auto" Height="{Binding $parent[TabItem].Height}"
+						  Width="{Binding $parent[TabItem].Width}">
+				<WrapPanel>
+
+					<DataGrid ItemsSource="{Binding HashTable}">
+						<DataGrid.Columns>
+							<DataGridTextColumn
+								Header="Размер хеш таблицы"
+								Binding="{Binding HashTableSize, DataType=iavm:HashArrayTableRow}"/>
+
+							<DataGridTextColumn
+								Header="Кол-во элементов"
+								Binding="{Binding ArrayLenght, DataType=iavm:HashArrayTableRow}"/>
+							<DataGridTextColumn
+								Header="Коллизии"
+								Binding="{Binding CollizSum, DataType=iavm:HashArrayTableRow}"/>
+						</DataGrid.Columns>
+					</DataGrid>
+
+				</WrapPanel>
+			</ScrollViewer>
+		</TabItem>
+
+
+
+
+
+
+	</TabControl>
+</UserControl>

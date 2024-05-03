@@ -112,14 +112,14 @@ namespace VisualPartSAOD.ViewModel.Lab2
                 new SortedArrayTableRow(500, (array) => new  QuickSortSecond(array)),
            };
             _tableMergeSort = new SortedListTableRow[]
-        {
+           {
             new SortedListTableRow(),
             new SortedListTableRow(100),
             new SortedListTableRow(200),
             new SortedListTableRow(300),
             new SortedListTableRow(400),
             new SortedListTableRow(500),
-        };
+           };
 
 
             SeriesDigitSort = new ISeries[]
