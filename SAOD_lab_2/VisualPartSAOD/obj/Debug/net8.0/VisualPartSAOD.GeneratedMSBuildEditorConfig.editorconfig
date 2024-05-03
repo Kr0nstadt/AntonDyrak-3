@@ -13,45 +13,45 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = VisualPartSAOD
-build_property.ProjectDir = C:\Users\karpo\OneDrive\Рабочий стол\AntonDyrak-3\SAOD_lab_2\VisualPartSAOD\
+build_property.ProjectDir = C:\Users\iamna\YandexDisk-mileschko.sibsutis\Информатика 2023\AntonDyrak-3\SAOD_lab_2\VisualPartSAOD\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/karpo/OneDrive/Рабочий стол/AntonDyrak-3/SAOD_lab_2/VisualPartSAOD/App.axaml]
+[C:/Users/iamna/YandexDisk-mileschko.sibsutis/Информатика 2023/AntonDyrak-3/SAOD_lab_2/VisualPartSAOD/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/karpo/OneDrive/Рабочий стол/AntonDyrak-3/SAOD_lab_2/VisualPartSAOD/BinarySearchUseControl.axaml]
+[C:/Users/iamna/YandexDisk-mileschko.sibsutis/Информатика 2023/AntonDyrak-3/SAOD_lab_2/VisualPartSAOD/BinarySearchUseControl.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/karpo/OneDrive/Рабочий стол/AntonDyrak-3/SAOD_lab_2/VisualPartSAOD/DigitSortUserControl.axaml]
+[C:/Users/iamna/YandexDisk-mileschko.sibsutis/Информатика 2023/AntonDyrak-3/SAOD_lab_2/VisualPartSAOD/DigitSortUserControl.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/karpo/OneDrive/Рабочий стол/AntonDyrak-3/SAOD_lab_2/VisualPartSAOD/MainWindow.axaml]
+[C:/Users/iamna/YandexDisk-mileschko.sibsutis/Информатика 2023/AntonDyrak-3/SAOD_lab_2/VisualPartSAOD/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/karpo/OneDrive/Рабочий стол/AntonDyrak-3/SAOD_lab_2/VisualPartSAOD/PhonebookUserControl.axaml]
+[C:/Users/iamna/YandexDisk-mileschko.sibsutis/Информатика 2023/AntonDyrak-3/SAOD_lab_2/VisualPartSAOD/PhonebookUserControl.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/karpo/OneDrive/Рабочий стол/AntonDyrak-3/SAOD_lab_2/VisualPartSAOD/UserControlHeapSort.axaml]
+[C:/Users/iamna/YandexDisk-mileschko.sibsutis/Информатика 2023/AntonDyrak-3/SAOD_lab_2/VisualPartSAOD/UserControlHeapSort.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/karpo/OneDrive/Рабочий стол/AntonDyrak-3/SAOD_lab_2/VisualPartSAOD/UserControlInsert.axaml]
+[C:/Users/iamna/YandexDisk-mileschko.sibsutis/Информатика 2023/AntonDyrak-3/SAOD_lab_2/VisualPartSAOD/UserControlInsert.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/karpo/OneDrive/Рабочий стол/AntonDyrak-3/SAOD_lab_2/VisualPartSAOD/UserControlLab3.axaml]
+[C:/Users/iamna/YandexDisk-mileschko.sibsutis/Информатика 2023/AntonDyrak-3/SAOD_lab_2/VisualPartSAOD/UserControlLab3.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/karpo/OneDrive/Рабочий стол/AntonDyrak-3/SAOD_lab_2/VisualPartSAOD/UserControlLab4.axaml]
+[C:/Users/iamna/YandexDisk-mileschko.sibsutis/Информатика 2023/AntonDyrak-3/SAOD_lab_2/VisualPartSAOD/UserControlLab4.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/karpo/OneDrive/Рабочий стол/AntonDyrak-3/SAOD_lab_2/VisualPartSAOD/UserControlLab5.axaml]
+[C:/Users/iamna/YandexDisk-mileschko.sibsutis/Информатика 2023/AntonDyrak-3/SAOD_lab_2/VisualPartSAOD/UserControlLab5.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/karpo/OneDrive/Рабочий стол/AntonDyrak-3/SAOD_lab_2/VisualPartSAOD/UserControlMergeSort.axaml]
+[C:/Users/iamna/YandexDisk-mileschko.sibsutis/Информатика 2023/AntonDyrak-3/SAOD_lab_2/VisualPartSAOD/UserControlMergeSort.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/karpo/OneDrive/Рабочий стол/AntonDyrak-3/SAOD_lab_2/VisualPartSAOD/UserControlQuickSort.axaml]
+[C:/Users/iamna/YandexDisk-mileschko.sibsutis/Информатика 2023/AntonDyrak-3/SAOD_lab_2/VisualPartSAOD/UserControlQuickSort.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/karpo/OneDrive/Рабочий стол/AntonDyrak-3/SAOD_lab_2/VisualPartSAOD/UserControlSuper.axaml]
+[C:/Users/iamna/YandexDisk-mileschko.sibsutis/Информатика 2023/AntonDyrak-3/SAOD_lab_2/VisualPartSAOD/UserControlSuper.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

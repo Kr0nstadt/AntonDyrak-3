@@ -1,22 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AntonDyrak-3\\SAOD_lab_2\\",
+  "WorkspaceRootPath": "C:\\Users\\iamna\\YandexDisk-mileschko.sibsutis\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430 2023\\AntonDyrak-3\\SAOD_lab_2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9BC4BC66-CD59-47D9-AC54-8593843D9EA8}|Hash\\Hash.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\antondyrak-3\\saod_lab_2\\hash\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BC4BC66-CD59-47D9-AC54-8593843D9EA8}|Hash\\Hash.csproj|solutionrelative:hash\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BC4BC66-CD59-47D9-AC54-8593843D9EA8}|Hash\\Hash.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\antondyrak-3\\saod_lab_2\\hash\\randomintarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BC4BC66-CD59-47D9-AC54-8593843D9EA8}|Hash\\Hash.csproj|solutionrelative:hash\\randomintarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BC4BC66-CD59-47D9-AC54-8593843D9EA8}|Hash\\Hash.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\antondyrak-3\\saod_lab_2\\hash\\basehashintarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9BC4BC66-CD59-47D9-AC54-8593843D9EA8}|Hash\\Hash.csproj|c:\\users\\iamna\\yandexdisk-mileschko.sibsutis\\\u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430 2023\\antondyrak-3\\saod_lab_2\\hash\\basehashintarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9BC4BC66-CD59-47D9-AC54-8593843D9EA8}|Hash\\Hash.csproj|solutionrelative:hash\\basehashintarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0E83B7E-2CBD-4523-B810-78ABB3001DD7}|SAOD lab 2\\SAOD lab 2.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\antondyrak-3\\saod_lab_2\\saod lab 2\\base\\basesearchintarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0E83B7E-2CBD-4523-B810-78ABB3001DD7}|SAOD lab 2\\SAOD lab 2.csproj|solutionrelative:saod lab 2\\base\\basesearchintarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9BC4BC66-CD59-47D9-AC54-8593843D9EA8}|Hash\\Hash.csproj|c:\\users\\iamna\\yandexdisk-mileschko.sibsutis\\\u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430 2023\\antondyrak-3\\saod_lab_2\\hash\\baseintarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC4BC66-CD59-47D9-AC54-8593843D9EA8}|Hash\\Hash.csproj|solutionrelative:hash\\baseintarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BC4BC66-CD59-47D9-AC54-8593843D9EA8}|Hash\\Hash.csproj|c:\\users\\iamna\\yandexdisk-mileschko.sibsutis\\\u0438\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430 2023\\antondyrak-3\\saod_lab_2\\hash\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC4BC66-CD59-47D9-AC54-8593843D9EA8}|Hash\\Hash.csproj|solutionrelative:hash\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RandomIntArray.cs",
-              "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AntonDyrak-3\\SAOD_lab_2\\Hash\\RandomIntArray.cs",
-              "RelativeDocumentMoniker": "Hash\\RandomIntArray.cs",
-              "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AntonDyrak-3\\SAOD_lab_2\\Hash\\RandomIntArray.cs",
-              "RelativeToolTip": "Hash\\RandomIntArray.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "BaseHashIntArray.cs",
+              "DocumentMoniker": "C:\\Users\\iamna\\YandexDisk-mileschko.sibsutis\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430 2023\\AntonDyrak-3\\SAOD_lab_2\\Hash\\BaseHashIntArray.cs",
+              "RelativeDocumentMoniker": "Hash\\BaseHashIntArray.cs",
+              "ToolTip": "C:\\Users\\iamna\\YandexDisk-mileschko.sibsutis\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430 2023\\AntonDyrak-3\\SAOD_lab_2\\Hash\\BaseHashIntArray.cs",
+              "RelativeToolTip": "Hash\\BaseHashIntArray.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAAwGcAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T10:56:39.698Z",
+              "WhenOpened": "2024-05-03T11:48:52.779Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AntonDyrak-3\\SAOD_lab_2\\Hash\\Program.cs",
-              "RelativeDocumentMoniker": "Hash\\Program.cs",
-              "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AntonDyrak-3\\SAOD_lab_2\\Hash\\Program.cs*",
-              "RelativeToolTip": "Hash\\Program.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA4AAAA",
+              "DocumentIndex": 1,
+              "Title": "BaseIntArray.cs",
+              "DocumentMoniker": "C:\\Users\\iamna\\YandexDisk-mileschko.sibsutis\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430 2023\\AntonDyrak-3\\SAOD_lab_2\\Hash\\BaseIntArray.cs",
+              "RelativeDocumentMoniker": "Hash\\BaseIntArray.cs",
+              "ToolTip": "C:\\Users\\iamna\\YandexDisk-mileschko.sibsutis\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430 2023\\AntonDyrak-3\\SAOD_lab_2\\Hash\\BaseIntArray.cs",
+              "RelativeToolTip": "Hash\\BaseIntArray.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T10:55:07.377Z",
+              "WhenOpened": "2024-05-03T11:50:45.203Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "BaseHashIntArray.cs",
-              "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AntonDyrak-3\\SAOD_lab_2\\Hash\\BaseHashIntArray.cs",
-              "RelativeDocumentMoniker": "Hash\\BaseHashIntArray.cs",
-              "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AntonDyrak-3\\SAOD_lab_2\\Hash\\BaseHashIntArray.cs*",
-              "RelativeToolTip": "Hash\\BaseHashIntArray.cs*",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAmwCIAAAAMAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\iamna\\YandexDisk-mileschko.sibsutis\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430 2023\\AntonDyrak-3\\SAOD_lab_2\\Hash\\Program.cs",
+              "RelativeDocumentMoniker": "Hash\\Program.cs",
+              "ToolTip": "C:\\Users\\iamna\\YandexDisk-mileschko.sibsutis\\\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0442\u0438\u043A\u0430 2023\\AntonDyrak-3\\SAOD_lab_2\\Hash\\Program.cs",
+              "RelativeToolTip": "Hash\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T10:06:10.678Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BaseSearchIntArray.cs",
-              "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AntonDyrak-3\\SAOD_lab_2\\SAOD lab 2\\Base\\BaseSearchIntArray.cs",
-              "RelativeDocumentMoniker": "SAOD lab 2\\Base\\BaseSearchIntArray.cs",
-              "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AntonDyrak-3\\SAOD_lab_2\\SAOD lab 2\\Base\\BaseSearchIntArray.cs",
-              "RelativeToolTip": "SAOD lab 2\\Base\\BaseSearchIntArray.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAkwBkAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T10:05:43.314Z",
+              "WhenOpened": "2024-05-03T11:48:40.884Z",
               "EditorCaption": ""
             }
           ]

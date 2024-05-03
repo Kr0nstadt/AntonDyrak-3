@@ -17,7 +17,7 @@ namespace Hash
             _searchRes = new List<int>();
             _hashTable = new List<int>[1];
         }
-        public BaseHashIntArray(BaseIntArray array, int m)
+        public BaseHashIntArray(BaseIntArray array, int m) : base((uint)array.Length)
         {
             _hashTableSize = m;
             _cal = 0;
@@ -26,7 +26,7 @@ namespace Hash
             array.Data.CopyTo(Data, 0);
             _hashTable = HashTableMaker();
         }
-        public BaseHashIntArray(BaseIntArray array, int m, int key)
+        public BaseHashIntArray(BaseIntArray array, int m, int key) : base((uint)array.Length)
         {
             _hashTableSize = m;
             _cal = 0;
@@ -101,6 +101,10 @@ namespace Hash
             List<int>[] HashTable = new List<int>[_hashTableSize];
             for(int i = 0; i < Data.Length; i++)
             {
+                if (HashTable[IntToHash(Data[i])] is null)
+                {
+                    HashTable[IntToHash(Data[i])] = new List<int>();
+                }
                 HashTable[IntToHash(Data[i])].Add(Data[i]);
             }
             return HashTable;
