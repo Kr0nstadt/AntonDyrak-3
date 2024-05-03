@@ -9,7 +9,7 @@
              x:Class="VisualPartSAOD.UserControlHash">
 	<TabControl x:DataType="iavm:HashTableInfo">
 		<TabControl.DataContext>
-			<iavm:DigitalSortInfo/>
+			<iavm:HashTableInfo/>
 		</TabControl.DataContext>
 
 		<TabItem Header="Списки">

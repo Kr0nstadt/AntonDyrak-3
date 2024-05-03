@@ -4717,19 +4717,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\karpo\\.nuget\\packages\\": {}
+    "C:\\Users\\iamna\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\AntonDyrak-3\\SAOD_lab_2\\VisualPartSAOD\\VisualPartSAOD.csproj",
+      "projectUniqueName": "C:\\Users\\iamna\\YandexDisk-mileschko.sibsutis\\Информатика 2023\\AntonDyrak-3\\SAOD_lab_2\\VisualPartSAOD\\VisualPartSAOD.csproj",
       "projectName": "VisualPartSAOD",
-      "projectPath": "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\AntonDyrak-3\\SAOD_lab_2\\VisualPartSAOD\\VisualPartSAOD.csproj",
-      "packagesPath": "C:\\Users\\karpo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\AntonDyrak-3\\SAOD_lab_2\\VisualPartSAOD\\obj\\",
+      "projectPath": "C:\\Users\\iamna\\YandexDisk-mileschko.sibsutis\\Информатика 2023\\AntonDyrak-3\\SAOD_lab_2\\VisualPartSAOD\\VisualPartSAOD.csproj",
+      "packagesPath": "C:\\Users\\iamna\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\iamna\\YandexDisk-mileschko.sibsutis\\Информатика 2023\\AntonDyrak-3\\SAOD_lab_2\\VisualPartSAOD\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\karpo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\iamna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4737,23 +4742,24 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\AntonDyrak-3\\SAOD_lab_2\\Digital\\Digital.csproj": {
-              "projectPath": "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\AntonDyrak-3\\SAOD_lab_2\\Digital\\Digital.csproj"
+            "C:\\Users\\iamna\\YandexDisk-mileschko.sibsutis\\Информатика 2023\\AntonDyrak-3\\SAOD_lab_2\\Digital\\Digital.csproj": {
+              "projectPath": "C:\\Users\\iamna\\YandexDisk-mileschko.sibsutis\\Информатика 2023\\AntonDyrak-3\\SAOD_lab_2\\Digital\\Digital.csproj"
             },
-            "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\AntonDyrak-3\\SAOD_lab_2\\DynamicDataStructure\\DynamicDataStructure.csproj": {
-              "projectPath": "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\AntonDyrak-3\\SAOD_lab_2\\DynamicDataStructure\\DynamicDataStructure.csproj"
+            "C:\\Users\\iamna\\YandexDisk-mileschko.sibsutis\\Информатика 2023\\AntonDyrak-3\\SAOD_lab_2\\DynamicDataStructure\\DynamicDataStructure.csproj": {
+              "projectPath": "C:\\Users\\iamna\\YandexDisk-mileschko.sibsutis\\Информатика 2023\\AntonDyrak-3\\SAOD_lab_2\\DynamicDataStructure\\DynamicDataStructure.csproj"
             },
-            "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\AntonDyrak-3\\SAOD_lab_2\\Hash\\Hash.csproj": {
-              "projectPath": "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\AntonDyrak-3\\SAOD_lab_2\\Hash\\Hash.csproj"
+            "C:\\Users\\iamna\\YandexDisk-mileschko.sibsutis\\Информатика 2023\\AntonDyrak-3\\SAOD_lab_2\\Hash\\Hash.csproj": {
+              "projectPath": "C:\\Users\\iamna\\YandexDisk-mileschko.sibsutis\\Информатика 2023\\AntonDyrak-3\\SAOD_lab_2\\Hash\\Hash.csproj"
             },
-            "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\AntonDyrak-3\\SAOD_lab_2\\SAOD lab 2\\SAOD lab 2.csproj": {
-              "projectPath": "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\AntonDyrak-3\\SAOD_lab_2\\SAOD lab 2\\SAOD lab 2.csproj"
+            "C:\\Users\\iamna\\YandexDisk-mileschko.sibsutis\\Информатика 2023\\AntonDyrak-3\\SAOD_lab_2\\SAOD lab 2\\SAOD lab 2.csproj": {
+              "projectPath": "C:\\Users\\iamna\\YandexDisk-mileschko.sibsutis\\Информатика 2023\\AntonDyrak-3\\SAOD_lab_2\\SAOD lab 2\\SAOD lab 2.csproj"
             }
           }
         }
@@ -4814,7 +4820,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
