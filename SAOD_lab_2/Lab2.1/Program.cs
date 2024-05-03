@@ -129,7 +129,7 @@ FillList.FillingRand(queue, (e, i) =>
 }, 40, 10, 99);
 
 Console.WriteLine("   " + queue);
-lists.RemoveAll();\
+lists.RemoveAll();
 FillList.FillingRand(lists, (e, i) =>
 {
     if (e is MyList<int> stack)
