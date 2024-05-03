@@ -1,6 +1,0 @@
-C:\Users\karpo\OneDrive\Рабочий стол\ТРПО — копия\ShapeLibrary\ShapeLibraryTests\bin\Debug\net8.0\CoverletSourceRootsMapping_ShapeLibraryTests
-C:\Users\karpo\OneDrive\Рабочий стол\ТРПО — копия\ShapeLibrary\ShapeLibraryTests\obj\Debug\net8.0\ShapeLibraryTests.csproj.AssemblyReference.cache
-C:\Users\karpo\OneDrive\Рабочий стол\ТРПО — копия\ShapeLibrary\ShapeLibraryTests\obj\Debug\net8.0\ShapeLibraryTests.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\karpo\OneDrive\Рабочий стол\ТРПО — копия\ShapeLibrary\ShapeLibraryTests\obj\Debug\net8.0\ShapeLibraryTests.AssemblyInfoInputs.cache
-C:\Users\karpo\OneDrive\Рабочий стол\ТРПО — копия\ShapeLibrary\ShapeLibraryTests\obj\Debug\net8.0\ShapeLibraryTests.AssemblyInfo.cs
-C:\Users\karpo\OneDrive\Рабочий стол\ТРПО — копия\ShapeLibrary\ShapeLibraryTests\obj\Debug\net8.0\ShapeLibraryTests.csproj.CoreCompileInputs.cache
