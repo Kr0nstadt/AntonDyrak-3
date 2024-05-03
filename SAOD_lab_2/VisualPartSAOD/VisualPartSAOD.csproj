@@ -23,6 +23,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Digital\Digital.csproj" />
     <ProjectReference Include="..\DynamicDataStructure\DynamicDataStructure.csproj" />
+    <ProjectReference Include="..\Hash\Hash.csproj" />
     <ProjectReference Include="..\SAOD lab 2\SAOD lab 2.csproj" />
   </ItemGroup>
 

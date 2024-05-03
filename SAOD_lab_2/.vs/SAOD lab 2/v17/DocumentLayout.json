@@ -3,52 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AntonDyrak-3\\SAOD_lab_2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9AC4C859-7667-48ED-B0E0-F29E257D4CF1}|VisualPartSAOD\\VisualPartSAOD.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\antondyrak-3\\saod_lab_2\\visualpartsaod\\usercontrolinsert.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AC4C859-7667-48ED-B0E0-F29E257D4CF1}|VisualPartSAOD\\VisualPartSAOD.csproj|solutionrelative:visualpartsaod\\usercontrolinsert.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9BC4BC66-CD59-47D9-AC54-8593843D9EA8}|Hash\\Hash.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\antondyrak-3\\saod_lab_2\\hash\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC4BC66-CD59-47D9-AC54-8593843D9EA8}|Hash\\Hash.csproj|solutionrelative:hash\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9AC4C859-7667-48ED-B0E0-F29E257D4CF1}|VisualPartSAOD\\VisualPartSAOD.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\antondyrak-3\\saod_lab_2\\visualpartsaod\\viewmodel\\lab2\\digitalsortinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AC4C859-7667-48ED-B0E0-F29E257D4CF1}|VisualPartSAOD\\VisualPartSAOD.csproj|solutionrelative:visualpartsaod\\viewmodel\\lab2\\digitalsortinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9BC4BC66-CD59-47D9-AC54-8593843D9EA8}|Hash\\Hash.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\antondyrak-3\\saod_lab_2\\hash\\randomintarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC4BC66-CD59-47D9-AC54-8593843D9EA8}|Hash\\Hash.csproj|solutionrelative:hash\\randomintarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9AC4C859-7667-48ED-B0E0-F29E257D4CF1}|VisualPartSAOD\\VisualPartSAOD.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\antondyrak-3\\saod_lab_2\\visualpartsaod\\viewmodel\\lab2\\digitalsorttablerow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AC4C859-7667-48ED-B0E0-F29E257D4CF1}|VisualPartSAOD\\VisualPartSAOD.csproj|solutionrelative:visualpartsaod\\viewmodel\\lab2\\digitalsorttablerow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9BC4BC66-CD59-47D9-AC54-8593843D9EA8}|Hash\\Hash.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\antondyrak-3\\saod_lab_2\\hash\\basehashintarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BC4BC66-CD59-47D9-AC54-8593843D9EA8}|Hash\\Hash.csproj|solutionrelative:hash\\basehashintarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9AC4C859-7667-48ED-B0E0-F29E257D4CF1}|VisualPartSAOD\\VisualPartSAOD.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\antondyrak-3\\saod_lab_2\\visualpartsaod\\viewmodel\\lab2\\digitsortviewmodelshort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AC4C859-7667-48ED-B0E0-F29E257D4CF1}|VisualPartSAOD\\VisualPartSAOD.csproj|solutionrelative:visualpartsaod\\viewmodel\\lab2\\digitsortviewmodelshort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7CBCCC93-C7E0-4390-808D-FD965FB34594}|Digital\\Digital.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\antondyrak-3\\saod_lab_2\\digital\\shortarraymade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CBCCC93-C7E0-4390-808D-FD965FB34594}|Digital\\Digital.csproj|solutionrelative:digital\\shortarraymade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7CBCCC93-C7E0-4390-808D-FD965FB34594}|Digital\\Digital.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\antondyrak-3\\saod_lab_2\\digital\\intarraymade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CBCCC93-C7E0-4390-808D-FD965FB34594}|Digital\\Digital.csproj|solutionrelative:digital\\intarraymade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0E83B7E-2CBD-4523-B810-78ABB3001DD7}|SAOD lab 2\\SAOD lab 2.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\antondyrak-3\\saod_lab_2\\saod lab 2\\base\\baseintarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0E83B7E-2CBD-4523-B810-78ABB3001DD7}|SAOD lab 2\\SAOD lab 2.csproj|solutionrelative:saod lab 2\\base\\baseintarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9AC4C859-7667-48ED-B0E0-F29E257D4CF1}|VisualPartSAOD\\VisualPartSAOD.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\antondyrak-3\\saod_lab_2\\visualpartsaod\\viewmodel\\lab2\\digitsortviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AC4C859-7667-48ED-B0E0-F29E257D4CF1}|VisualPartSAOD\\VisualPartSAOD.csproj|solutionrelative:visualpartsaod\\viewmodel\\lab2\\digitsortviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7CBCCC93-C7E0-4390-808D-FD965FB34594}|Digital\\Digital.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\antondyrak-3\\saod_lab_2\\digital\\digitalsort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CBCCC93-C7E0-4390-808D-FD965FB34594}|Digital\\Digital.csproj|solutionrelative:digital\\digitalsort.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9AC4C859-7667-48ED-B0E0-F29E257D4CF1}|VisualPartSAOD\\VisualPartSAOD.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\antondyrak-3\\saod_lab_2\\visualpartsaod\\digitsortusercontrol.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{9AC4C859-7667-48ED-B0E0-F29E257D4CF1}|VisualPartSAOD\\VisualPartSAOD.csproj|solutionrelative:visualpartsaod\\digitsortusercontrol.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7CBCCC93-C7E0-4390-808D-FD965FB34594}|Digital\\Digital.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\antondyrak-3\\saod_lab_2\\digital\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7CBCCC93-C7E0-4390-808D-FD965FB34594}|Digital\\Digital.csproj|solutionrelative:digital\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9AC4C859-7667-48ED-B0E0-F29E257D4CF1}|VisualPartSAOD\\VisualPartSAOD.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\antondyrak-3\\saod_lab_2\\visualpartsaod\\viewmodel\\lab2\\digitalsortvievmodelsurname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AC4C859-7667-48ED-B0E0-F29E257D4CF1}|VisualPartSAOD\\VisualPartSAOD.csproj|solutionrelative:visualpartsaod\\viewmodel\\lab2\\digitalsortvievmodelsurname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D0E83B7E-2CBD-4523-B810-78ABB3001DD7}|SAOD lab 2\\SAOD lab 2.csproj|c:\\users\\karpo\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\antondyrak-3\\saod_lab_2\\saod lab 2\\base\\basesearchintarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0E83B7E-2CBD-4523-B810-78ABB3001DD7}|SAOD lab 2\\SAOD lab 2.csproj|solutionrelative:saod lab 2\\base\\basesearchintarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,153 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DigitalSort.cs",
-              "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AntonDyrak-3\\SAOD_lab_2\\Digital\\DigitalSort.cs",
-              "RelativeDocumentMoniker": "Digital\\DigitalSort.cs",
-              "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AntonDyrak-3\\SAOD_lab_2\\Digital\\DigitalSort.cs",
-              "RelativeToolTip": "Digital\\DigitalSort.cs",
-              "ViewState": "AQIAAIMAAAAAAAAAAIAwwEUAAAAQAAAA",
+              "DocumentIndex": 1,
+              "Title": "RandomIntArray.cs",
+              "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AntonDyrak-3\\SAOD_lab_2\\Hash\\RandomIntArray.cs",
+              "RelativeDocumentMoniker": "Hash\\RandomIntArray.cs",
+              "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AntonDyrak-3\\SAOD_lab_2\\Hash\\RandomIntArray.cs",
+              "RelativeToolTip": "Hash\\RandomIntArray.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T16:27:26.721Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IntArrayMade.cs",
-              "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AntonDyrak-3\\SAOD_lab_2\\Digital\\IntArrayMade.cs",
-              "RelativeDocumentMoniker": "Digital\\IntArrayMade.cs",
-              "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AntonDyrak-3\\SAOD_lab_2\\Digital\\IntArrayMade.cs",
-              "RelativeToolTip": "Digital\\IntArrayMade.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAowB4AAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T10:54:48.432Z",
-              "IsPinned": true
+              "WhenOpened": "2024-05-03T10:56:39.698Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserControlInsert.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AntonDyrak-3\\SAOD_lab_2\\VisualPartSAOD\\UserControlInsert.axaml.cs",
-              "RelativeDocumentMoniker": "VisualPartSAOD\\UserControlInsert.axaml.cs",
-              "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AntonDyrak-3\\SAOD_lab_2\\VisualPartSAOD\\UserControlInsert.axaml.cs",
-              "RelativeToolTip": "VisualPartSAOD\\UserControlInsert.axaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AntonDyrak-3\\SAOD_lab_2\\Hash\\Program.cs",
+              "RelativeDocumentMoniker": "Hash\\Program.cs",
+              "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AntonDyrak-3\\SAOD_lab_2\\Hash\\Program.cs*",
+              "RelativeToolTip": "Hash\\Program.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T12:49:29.371Z",
+              "WhenOpened": "2024-05-03T10:55:07.377Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DigitalSortTableRow.cs",
-              "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AntonDyrak-3\\SAOD_lab_2\\VisualPartSAOD\\ViewModel\\Lab2\\DigitalSortTableRow.cs",
-              "RelativeDocumentMoniker": "VisualPartSAOD\\ViewModel\\Lab2\\DigitalSortTableRow.cs",
-              "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AntonDyrak-3\\SAOD_lab_2\\VisualPartSAOD\\ViewModel\\Lab2\\DigitalSortTableRow.cs",
-              "RelativeToolTip": "VisualPartSAOD\\ViewModel\\Lab2\\DigitalSortTableRow.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "BaseHashIntArray.cs",
+              "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AntonDyrak-3\\SAOD_lab_2\\Hash\\BaseHashIntArray.cs",
+              "RelativeDocumentMoniker": "Hash\\BaseHashIntArray.cs",
+              "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AntonDyrak-3\\SAOD_lab_2\\Hash\\BaseHashIntArray.cs*",
+              "RelativeToolTip": "Hash\\BaseHashIntArray.cs*",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAmwCIAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T04:30:25.433Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ShortArrayMade.cs",
-              "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AntonDyrak-3\\SAOD_lab_2\\Digital\\ShortArrayMade.cs",
-              "RelativeDocumentMoniker": "Digital\\ShortArrayMade.cs",
-              "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AntonDyrak-3\\SAOD_lab_2\\Digital\\ShortArrayMade.cs",
-              "RelativeToolTip": "Digital\\ShortArrayMade.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAA3wC8AAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T04:04:02.335Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BaseIntArray.cs",
-              "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AntonDyrak-3\\SAOD_lab_2\\SAOD lab 2\\Base\\BaseIntArray.cs",
-              "RelativeDocumentMoniker": "SAOD lab 2\\Base\\BaseIntArray.cs",
-              "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AntonDyrak-3\\SAOD_lab_2\\SAOD lab 2\\Base\\BaseIntArray.cs",
-              "RelativeToolTip": "SAOD lab 2\\Base\\BaseIntArray.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T03:47:16.922Z"
+              "WhenOpened": "2024-05-03T10:06:10.678Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "DigitSortViewModelShort.cs",
-              "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AntonDyrak-3\\SAOD_lab_2\\VisualPartSAOD\\ViewModel\\Lab2\\DigitSortViewModelShort.cs",
-              "RelativeDocumentMoniker": "VisualPartSAOD\\ViewModel\\Lab2\\DigitSortViewModelShort.cs",
-              "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AntonDyrak-3\\SAOD_lab_2\\VisualPartSAOD\\ViewModel\\Lab2\\DigitSortViewModelShort.cs",
-              "RelativeToolTip": "VisualPartSAOD\\ViewModel\\Lab2\\DigitSortViewModelShort.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAYwFMAAAAxAAAA",
+              "Title": "BaseSearchIntArray.cs",
+              "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AntonDyrak-3\\SAOD_lab_2\\SAOD lab 2\\Base\\BaseSearchIntArray.cs",
+              "RelativeDocumentMoniker": "SAOD lab 2\\Base\\BaseSearchIntArray.cs",
+              "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AntonDyrak-3\\SAOD_lab_2\\SAOD lab 2\\Base\\BaseSearchIntArray.cs",
+              "RelativeToolTip": "SAOD lab 2\\Base\\BaseSearchIntArray.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAkwBkAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T03:41:14.982Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DigitSortViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AntonDyrak-3\\SAOD_lab_2\\VisualPartSAOD\\ViewModel\\Lab2\\DigitSortViewModel.cs",
-              "RelativeDocumentMoniker": "VisualPartSAOD\\ViewModel\\Lab2\\DigitSortViewModel.cs",
-              "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AntonDyrak-3\\SAOD_lab_2\\VisualPartSAOD\\ViewModel\\Lab2\\DigitSortViewModel.cs",
-              "RelativeToolTip": "VisualPartSAOD\\ViewModel\\Lab2\\DigitSortViewModel.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAcwEQAAABoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T16:28:14.238Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DigitSortUserControl.axaml",
-              "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AntonDyrak-3\\SAOD_lab_2\\VisualPartSAOD\\DigitSortUserControl.axaml",
-              "RelativeDocumentMoniker": "VisualPartSAOD\\DigitSortUserControl.axaml",
-              "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AntonDyrak-3\\SAOD_lab_2\\VisualPartSAOD\\DigitSortUserControl.axaml",
-              "RelativeToolTip": "VisualPartSAOD\\DigitSortUserControl.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-26T11:56:29.602Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AntonDyrak-3\\SAOD_lab_2\\Digital\\Program.cs",
-              "RelativeDocumentMoniker": "Digital\\Program.cs",
-              "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AntonDyrak-3\\SAOD_lab_2\\Digital\\Program.cs",
-              "RelativeToolTip": "Digital\\Program.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwCAAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T11:25:11.714Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "DigitalSortVievModelSurname.cs",
-              "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AntonDyrak-3\\SAOD_lab_2\\VisualPartSAOD\\ViewModel\\Lab2\\DigitalSortVievModelSurname.cs",
-              "RelativeDocumentMoniker": "VisualPartSAOD\\ViewModel\\Lab2\\DigitalSortVievModelSurname.cs",
-              "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AntonDyrak-3\\SAOD_lab_2\\VisualPartSAOD\\ViewModel\\Lab2\\DigitalSortVievModelSurname.cs",
-              "RelativeToolTip": "VisualPartSAOD\\ViewModel\\Lab2\\DigitalSortVievModelSurname.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAhwBMAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T11:34:05.533Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DigitalSortInfo.cs",
-              "DocumentMoniker": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AntonDyrak-3\\SAOD_lab_2\\VisualPartSAOD\\ViewModel\\Lab2\\DigitalSortInfo.cs",
-              "RelativeDocumentMoniker": "VisualPartSAOD\\ViewModel\\Lab2\\DigitalSortInfo.cs",
-              "ToolTip": "C:\\Users\\karpo\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\AntonDyrak-3\\SAOD_lab_2\\VisualPartSAOD\\ViewModel\\Lab2\\DigitalSortInfo.cs",
-              "RelativeToolTip": "VisualPartSAOD\\ViewModel\\Lab2\\DigitalSortInfo.cs",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAcwEsAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T16:10:40.614Z",
+              "WhenOpened": "2024-05-03T10:05:43.314Z",
               "EditorCaption": ""
             }
           ]

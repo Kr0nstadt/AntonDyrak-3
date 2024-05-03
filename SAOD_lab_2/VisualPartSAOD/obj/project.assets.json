@@ -1453,6 +1453,16 @@
           "bin/placeholder/DynamicDataStructure.dll": {}
         }
       },
+      "Hash/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Hash.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Hash.dll": {}
+        }
+      },
       "SAOD lab 2/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -4681,6 +4691,11 @@
       "path": "../DynamicDataStructure/DynamicDataStructure.csproj",
       "msbuildProject": "../DynamicDataStructure/DynamicDataStructure.csproj"
     },
+    "Hash/1.0.0": {
+      "type": "project",
+      "path": "../Hash/Hash.csproj",
+      "msbuildProject": "../Hash/Hash.csproj"
+    },
     "SAOD lab 2/1.0.0": {
       "type": "project",
       "path": "../SAOD lab 2/SAOD lab 2.csproj",
@@ -4696,6 +4711,7 @@
       "Avalonia.Themes.Fluent >= 11.0.6",
       "Digital >= 1.0.0",
       "DynamicDataStructure >= 1.0.0",
+      "Hash >= 1.0.0",
       "LiveChartsCore.SkiaSharpView.Avalonia >= 2.0.0-rc2",
       "SAOD lab 2 >= 1.0.0"
     ]
@@ -4732,6 +4748,9 @@
             },
             "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\AntonDyrak-3\\SAOD_lab_2\\DynamicDataStructure\\DynamicDataStructure.csproj": {
               "projectPath": "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\AntonDyrak-3\\SAOD_lab_2\\DynamicDataStructure\\DynamicDataStructure.csproj"
+            },
+            "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\AntonDyrak-3\\SAOD_lab_2\\Hash\\Hash.csproj": {
+              "projectPath": "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\AntonDyrak-3\\SAOD_lab_2\\Hash\\Hash.csproj"
             },
             "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\AntonDyrak-3\\SAOD_lab_2\\SAOD lab 2\\SAOD lab 2.csproj": {
               "projectPath": "C:\\Users\\karpo\\OneDrive\\Рабочий стол\\AntonDyrak-3\\SAOD_lab_2\\SAOD lab 2\\SAOD lab 2.csproj"
