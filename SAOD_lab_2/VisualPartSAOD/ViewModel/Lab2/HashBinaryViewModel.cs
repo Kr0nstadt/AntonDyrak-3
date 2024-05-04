@@ -34,8 +34,8 @@ namespace VisualPartSAOD.ViewModel.Lab2
                 $"Ключ для поиска : {_key}\n\n" +
                 $"Результат хеширования :\n{_key%7} : {ListToString(hash.SearchRes)}\n{hash.SearchResIndex}\n" +
                 $"Результат бинарного поиска : {binarySearchFirst.SearchArrayRes}\n\n" +
-                $"Время работы хеширования : {TimeHash.ElapsedMilliseconds.ToString()}\n" +
-                $"Время работы бинарного поиска : {TimeBin.ElapsedMilliseconds.ToString()}";
+                $"Время работы хеширования : {TimeHash.ElapsedMilliseconds}ms\n" +
+                $"Время работы бинарного поиска : {TimeBin.ElapsedMilliseconds}ms";
         }
         private string ListToString(List<int> list)
         {
