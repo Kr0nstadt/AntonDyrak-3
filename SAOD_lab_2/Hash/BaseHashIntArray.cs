@@ -104,6 +104,8 @@ namespace Hash
             }
         }
 
+        public int C { get; private set; }
+
         private string ListToString(List<int> list)
         {
             string t = " ";
@@ -116,12 +118,14 @@ namespace Hash
 
         private void SearchHeshArray ()
         {
+            C = 0;
             _searchRes = _hashTable[IntToHash(_key)];
             int index = 0;
             if (_searchRes.Contains(_key))
             {
                 for (int i = 0; i < _searchRes.Count; i++)
                 {
+                    ++C;
                     if (_searchRes[i] == _key)
                     {
                         _SearchResIndex += index + " ";
