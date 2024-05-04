@@ -14,6 +14,7 @@ namespace Hash
             _cal = 0;
             _hashTableSize = 0;
             _key = 0;
+            _SearchResIndex = "";
             _searchRes = new List<int>();
             _hashTable = new List<int>[1];
         }
@@ -22,6 +23,7 @@ namespace Hash
             _hashTableSize = m;
             _cal = 0;
             _key = 0;
+            _SearchResIndex = "";
             _searchRes = new List<int>();
             array.Data.CopyTo(Data, 0);
             _hashTable = HashTableMaker();
@@ -32,6 +34,7 @@ namespace Hash
             _cal = 0;
             _key = key;
             _searchRes = new List<int>();
+            _SearchResIndex = "";
             array.Data.CopyTo(Data, 0);
             _hashTable = HashTableMaker();
             SearchHeshArray();
@@ -92,6 +95,15 @@ namespace Hash
             }
         }
 
+        public string SearchResIndex
+        {
+            get { return _SearchResIndex; }
+            protected set
+            {
+                _SearchResIndex = value;
+            }
+        }
+
         private string ListToString(List<int> list)
         {
             string t = " ";
@@ -105,6 +117,19 @@ namespace Hash
         private void SearchHeshArray ()
         {
             _searchRes = _hashTable[IntToHash(_key)];
+            int index = 0;
+            if (_searchRes.Contains(_key))
+            {
+                for (int i = 0; i < _searchRes.Count; i++)
+                {
+                    if (_searchRes[i] == _key)
+                    {
+                        _SearchResIndex += index + " ";
+                    }
+                    index++;
+                }
+            }
+            else _SearchResIndex = "-1";
         }
         private List<int>[] HashTableMaker()
         {
@@ -132,6 +157,7 @@ namespace Hash
             return val % _hashTableSize;
         }
 
+        private string _SearchResIndex;
         private List<int> _searchRes;
         private int _key;
         private int _cal;

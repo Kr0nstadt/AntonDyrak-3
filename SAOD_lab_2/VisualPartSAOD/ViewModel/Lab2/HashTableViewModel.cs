@@ -19,7 +19,7 @@ namespace VisualPartSAOD.ViewModel.Lab2
             BaseHashIntArray hash = new BaseHashIntArray(_array, _m);
             return $"Изначальный массив : {_array.ToString()}\n" +
                 $"Количество элементов массива : {_array.Length}\n" +
-                $"Количество очередей : {_m}" +
+                $"Количество очередей : {_m}\n" +
                 $"Очереди : \n{hash.ToString()}\n\n" +
                 $"Количество коллизий : {hash.Cal}";
         }

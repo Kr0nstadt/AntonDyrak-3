@@ -24,6 +24,34 @@
 			</ScrollViewer>
 		</TabItem>
 
+		<TabItem Header="Сравнение">
+			<ScrollViewer
+				HorizontalScrollBarVisibility="Auto"
+				Height="{Binding $parent[TabItem].Height}"
+				Width="{Binding $parent[TabItem].Width}">
+				<StackPanel>
+					<TextBlock Text="{Binding HashSearchViewModel}"/>
+
+				</StackPanel>
+			</ScrollViewer>
+		</TabItem>
+
+
+		<TabItem Header="Поиск">
+			<ScrollViewer
+				HorizontalScrollBarVisibility="Auto"
+				Height="{Binding $parent[TabItem].Height}"
+				Width="{Binding $parent[TabItem].Width}">
+				<StackPanel>
+					<TextBlock Text="Введите ключ поиска :"/>
+					<TextBox Name="Box"/>
+					<Button HorizontalAlignment="Center" Click="ButtonClicked">Поиск</Button>
+					<TextBlock Name="SearchRes" Text=""/>
+
+				</StackPanel>
+			</ScrollViewer>
+		</TabItem>
+
 
 		<TabItem Header="Таблица">
 			<ScrollViewer HorizontalScrollBarVisibility="Auto" Height="{Binding $parent[TabItem].Height}"

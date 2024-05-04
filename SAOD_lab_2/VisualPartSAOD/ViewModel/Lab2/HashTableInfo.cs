@@ -14,6 +14,7 @@ namespace VisualPartSAOD.ViewModel.Lab2
         {
             RandomIntArray randomMini = new RandomIntArray(100);
             _HashViewModel = new HashTableViewModel(randomMini, 11);
+            _SearchViewModel = new HashBinaryViewModel(key);
 
             _tableHashArray = new HashArrayTableRow[]
             {
@@ -40,10 +41,13 @@ namespace VisualPartSAOD.ViewModel.Lab2
                 new HashArrayTableRow(97),
             };
         }
+        public static int key=15;
         public string HashViewModel => _HashViewModel.ToString();
+        public string HashSearchViewModel => _SearchViewModel.ToString();
         public HashArrayTableRow [] HashTable => _tableHashArray;
 
         private HashTableViewModel _HashViewModel;
+        private HashBinaryViewModel _SearchViewModel;
         private HashArrayTableRow[] _tableHashArray;
     }
 }
