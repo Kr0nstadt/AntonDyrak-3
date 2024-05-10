@@ -26,7 +26,7 @@ namespace VisualPartSAOD.ViewModel.Lab2
 
             return $"Массив для поиска : {arrayHash.ToString()}\n" +
                 $"Ключ для поиска : {_key}\n\n" +
-                $"Результат хеширования :\n{_key%7} : {ListToString(hash.SearchRes)}\n{hash.SearchResIndex}\n" +
+                $"Результат хеширования :\n{_key%7} : {ListToString(hash.SearchRes)}\nИндекс : {hash.SearchResIndex}\n" +
                 $"Результат бинарного поиска : {binarySearchFirst.SearchArrayRes}\n\n" +
                 $"Количество сравнений хеширования : {hash.C}\n" +
                 $"Количество сравнений бинарного поиска : {binarySearchFirst.C}";

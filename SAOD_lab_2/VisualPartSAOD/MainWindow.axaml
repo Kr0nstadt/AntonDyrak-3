@@ -54,8 +54,12 @@
 		</TabItem>
 		-->
 
-		<TabItem Header="DigitalSort">
+		<TabItem Header="Метод прямого связывания">
 			<con:UserControlHash/>
+		</TabItem>
+
+		<TabItem Header="Метод открытой адресации">
+			<con:HashSecondUserControl/>
 		</TabItem>
 		
     </TabControl>

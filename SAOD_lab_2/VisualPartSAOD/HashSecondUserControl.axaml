@@ -1,0 +1,127 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+			 xmlns:avalonia="clr-namespace:LiveChartsCore.SkiaSharpView.Avalonia;assembly=LiveChartsCore.SkiaSharpView.Avalonia"
+             xmlns:iavm="clr-namespace:VisualPartSAOD.ViewModel.Lab2"
+             xmlns:lvc="using:LiveChartsCore.SkiaSharpView.Avalonia"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="VisualPartSAOD.HashSecondUserControl">
+	<TabControl x:DataType="iavm:HashTableInfoTwo">
+		<TabControl.DataContext>
+			<iavm:HashTableInfoTwo/>
+		</TabControl.DataContext>
+
+
+
+		<TabItem Header="Линейные">
+			<ScrollViewer HorizontalScrollBarVisibility="Auto" Height="{Binding $parent[TabItem].Height}"
+						  Width="{Binding $parent[TabItem].Width}">
+				<WrapPanel>
+
+					<DataGrid ItemsSource="{Binding HashTableOne}">
+						<DataGrid.Columns>
+							<DataGridTextColumn
+								Header="Индекс"
+								Binding="{Binding HashTableIndex, DataType=iavm:HashArrayTableRowFirst}"/>
+
+							<DataGridTextColumn
+								Header="Элемент"
+								Binding="{Binding ArrayValue, DataType=iavm:HashArrayTableRowFirst}"/>
+							
+						</DataGrid.Columns>
+					</DataGrid>
+
+					<TextBlock TextWrapping="WrapWithOverflow" Text="{Binding HashTableInfo}"/>
+
+				</WrapPanel>
+			</ScrollViewer>
+		</TabItem>
+
+		<TabItem Header="Квадратичные">
+			<ScrollViewer HorizontalScrollBarVisibility="Auto" Height="{Binding $parent[TabItem].Height}"
+						  Width="{Binding $parent[TabItem].Width}">
+				<WrapPanel>
+
+					<DataGrid ItemsSource="{Binding HashTableSecond}">
+						<DataGrid.Columns>
+							<DataGridTextColumn
+								Header="Индекс"
+								Binding="{Binding HashTableIndex, DataType=iavm:HashArrayTableRowFirst}"/>
+
+							<DataGridTextColumn
+								Header="Элемент"
+								Binding="{Binding ArrayValue, DataType=iavm:HashArrayTableRowFirst}"/>
+
+						</DataGrid.Columns>
+					</DataGrid>
+
+					<TextBlock TextWrapping="WrapWithOverflow" Text="{Binding HashTableInfo}"/>
+
+				</WrapPanel>
+			</ScrollViewer>
+		</TabItem>
+
+		<TabItem Header="Коллизии">
+			<ScrollViewer HorizontalScrollBarVisibility="Auto" Height="{Binding $parent[TabItem].Height}"
+						  Width="{Binding $parent[TabItem].Width}">
+				<WrapPanel>
+
+					<DataGrid ItemsSource="{Binding HashTableFinal}">
+						<DataGrid.Columns>
+							<DataGridTextColumn
+								Header="Размер хеш таблицы"
+								Binding="{Binding HashTableSize, DataType=iavm:HashArrayTableRowTwo}"/>
+
+							<DataGridTextColumn
+								Header="Количество элементов"
+								Binding="{Binding ArrayLenght, DataType=iavm:HashArrayTableRowTwo}"/>
+
+							<DataGridTextColumn
+								Header="Линейная"
+								Binding="{Binding CollizSumFirst, DataType=iavm:HashArrayTableRowTwo}"/>
+
+							<DataGridTextColumn
+								Header="Квадратичная"
+								Binding="{Binding CollizSumSecond, DataType=iavm:HashArrayTableRowTwo}"/>
+
+
+						</DataGrid.Columns>
+					</DataGrid>
+
+				</WrapPanel>
+			</ScrollViewer>
+		</TabItem>
+
+		<TabItem Header="Поиск линейные">
+			<ScrollViewer
+				HorizontalScrollBarVisibility="Auto"
+				Height="{Binding $parent[TabItem].Height}"
+				Width="{Binding $parent[TabItem].Width}">
+				<StackPanel>
+					<TextBlock Text="Введите ключ поиска :"/>
+					<TextBox Name="Box1"/>
+					<Button HorizontalAlignment="Center" Click="ButtonClicked1">Поиск</Button>
+					<TextBlock Name="SearchRes1" Text=""/>
+
+				</StackPanel>
+			</ScrollViewer>
+		</TabItem>
+
+		<TabItem Header="Поиск квадратичные">
+			<ScrollViewer
+				HorizontalScrollBarVisibility="Auto"
+				Height="{Binding $parent[TabItem].Height}"
+				Width="{Binding $parent[TabItem].Width}">
+				<StackPanel>
+					<TextBlock Text="Введите ключ поиска :"/>
+					<TextBox Name="Box2"/>
+					<Button HorizontalAlignment="Center" Click="ButtonClicked2">Поиск</Button>
+					<TextBlock Name="SearchRes2" Text=""/>
+
+				</StackPanel>
+			</ScrollViewer>
+		</TabItem>
+
+	</TabControl>
+</UserControl>

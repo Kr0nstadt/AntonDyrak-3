@@ -14,7 +14,5 @@ namespace Perchev_Kyrsach.Fields
         {
             return BombCount.ToString();
         }
-
-        
     }
 }
