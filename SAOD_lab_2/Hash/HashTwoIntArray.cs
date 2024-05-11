@@ -158,6 +158,7 @@ namespace Hash
                     {
                         _cal++;
                         tmpH = (tmpH + d) % _hashTableSize;
+                        //Console.WriteLine(tmpH);
                     }
 
                     if(tmpH != h && tmpH < _hashTableSize && HashTable[tmpH] == 0)
@@ -189,13 +190,16 @@ namespace Hash
                     while (tmpH != h && HashTable[tmpH] != 0)
                     {
                         _cal++;
-                        tmpH = (h + d * d) % _hashTableSize;
-                        ++d;
+                        d++;
+                        tmpH = (h + d *d) % _hashTableSize ;
+                        Console.WriteLine($"{tmpH}");
+                        
                     }
 
                     if (tmpH != h && tmpH < _hashTableSize && HashTable[tmpH] == 0)
                     {
                         HashTable[tmpH] = Data[i];
+                        Console.WriteLine();
                     }
                 }
             }

@@ -17,6 +17,7 @@ namespace VisualPartSAOD.ViewModel.Lab2
 
             _tableHashArrayOne = new HashArrayTableRowFirst[]
             {
+                new HashArrayTableRowFirst(1, 0),
                 new HashArrayTableRowFirst(1,1),
                 new HashArrayTableRowFirst(1,2),
                 new HashArrayTableRowFirst(1,3),
@@ -39,10 +40,11 @@ namespace VisualPartSAOD.ViewModel.Lab2
                 new HashArrayTableRowFirst(1, 20),
                 new HashArrayTableRowFirst(1, 21),
                 new HashArrayTableRowFirst(1, 22),
-                new HashArrayTableRowFirst(1, 23),
+                
             };
             _tableHashArraySecond = new HashArrayTableRowFirst[]
             {
+                new HashArrayTableRowFirst(2,0),
                 new HashArrayTableRowFirst(2,1),
                 new HashArrayTableRowFirst(2,2),
                 new HashArrayTableRowFirst(2,3),
@@ -65,7 +67,7 @@ namespace VisualPartSAOD.ViewModel.Lab2
                 new HashArrayTableRowFirst(2, 20),
                 new HashArrayTableRowFirst(2, 21),
                 new HashArrayTableRowFirst(2, 22),
-                new HashArrayTableRowFirst(2, 23),
+                
             };
             _tableHashArrayFinal = new HashArrayTableRowTwo[]
             {
