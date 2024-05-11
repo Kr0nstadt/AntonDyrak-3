@@ -12,7 +12,7 @@ namespace VisualPartSAOD.ViewModel.Lab2
         public HashArrayTableRowTwo(int size)
         {
             HashTableSize = size;
-            ArrayLenght = 100;
+            ArrayLenght = 50;
             HashTwoIntArray hash = new HashTwoIntArray(random, size, 1);
             CollizSumFirst = hash.Cal;
             HashTwoIntArray hash2 = new HashTwoIntArray(random,size, 2);
@@ -20,11 +20,11 @@ namespace VisualPartSAOD.ViewModel.Lab2
         }
 
         public int HashTableSize { get; init; }
-        public int ArrayLenght { get; init; }
+        public static int ArrayLenght { get; set; }
         public int CollizSumFirst { get; init; }
         public int CollizSumSecond { get; init; }
 
-        private static RandomIntArray random = new RandomIntArray(100);
+        private static RandomIntArray random = new RandomIntArray(50);
 
         private readonly BaseHashIntArray _randomIntArray;
         private readonly BaseHashIntArray _increasingIntArray;

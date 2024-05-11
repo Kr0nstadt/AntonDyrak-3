@@ -153,18 +153,11 @@ namespace Hash
                 }
                 else
                 {
-                    int tmpH = h;
-                    _cal++;
-                    while(tmpH != h)
+                    int tmpH = (h + d) % _hashTableSize;
+                    while (tmpH != h && HashTable[tmpH] != 0)
                     {
-                        if(tmpH < _hashTableSize)
-                        {
-                            tmpH += d;
-                        }
-                        else
-                        {
-                            tmpH = tmpH % _hashTableSize;
-                        }
+                        _cal++;
+                        tmpH = (tmpH + d) % _hashTableSize;
                     }
 
                     if(tmpH != h && tmpH < _hashTableSize && HashTable[tmpH] == 0)
@@ -180,7 +173,7 @@ namespace Hash
         {
             int[] HashTable = new int[_hashTableSize];
             int h = 0;
-            int d = 1;
+            int d = 2;
             for (int i = 0; i < Data.Length; i++)
             {
                 h = Data[i] % _hashTableSize;
@@ -191,14 +184,13 @@ namespace Hash
                 }
                 else
                 {
-                    int tmpH = h;
+                    int tmpH = (h + d) % _hashTableSize;
 
-                    do
+                    while (tmpH != h && HashTable[tmpH] != 0)
                     {
                         _cal++;
-                        tmpH += d;
-                        d += 2;
-                    } while (tmpH != h && tmpH < _hashTableSize && HashTable[tmpH] != 0);
+                        tmpH = (tmpH + d) % _hashTableSize;
+                    }
 
                     if (tmpH != h && tmpH < _hashTableSize && HashTable[tmpH] == 0)
                     {

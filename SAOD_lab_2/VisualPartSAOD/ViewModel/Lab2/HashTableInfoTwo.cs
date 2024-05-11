@@ -99,8 +99,8 @@ namespace VisualPartSAOD.ViewModel.Lab2
             }
            txt = $"Массив для создания хеш таблицы : \n" +
                 $"{array}\n" +
-                $"Длинна массива : 30\n" +
-                $"Размер хеш таблицы : 23";
+                $"Длинна массива : 24\n" +
+                $"Размер хеш таблицы : 24";
         }
         public static int key = 15;
         public string HashSearchViewModel => _SearchViewModel.ToString();
