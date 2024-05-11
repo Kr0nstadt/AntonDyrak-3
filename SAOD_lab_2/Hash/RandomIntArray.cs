@@ -18,7 +18,7 @@ namespace Hash
             Random rnd = new Random();
             for (int i = 0; i < Data.Length; ++i)
             {
-                Data[i] = rnd.Next(1,100);
+                Data[i] = rnd.Next(100,599);
             }
         }
 

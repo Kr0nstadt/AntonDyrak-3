@@ -154,12 +154,18 @@ namespace Hash
                 else
                 {
                     int tmpH = h;
-
-                    do
+                    _cal++;
+                    while(tmpH != h)
                     {
-                        _cal++;
-                        tmpH += d;
-                    }while(tmpH != h && tmpH < _hashTableSize && HashTable[tmpH] != 0);
+                        if(tmpH < _hashTableSize)
+                        {
+                            tmpH += d;
+                        }
+                        else
+                        {
+                            tmpH = tmpH % _hashTableSize;
+                        }
+                    }
 
                     if(tmpH != h && tmpH < _hashTableSize && HashTable[tmpH] == 0)
                     {

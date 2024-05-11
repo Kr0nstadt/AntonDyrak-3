@@ -20,7 +20,7 @@ namespace VisualPartSAOD.ViewModel.Lab2
         public int ArrayValue { get; init; }
 
 
-        public static RandomIntArray random = new RandomIntArray(30);
+        public static RandomIntArray random = new RandomIntArray(10);
         private int size = 24;
         private readonly BaseHashIntArray _randomIntArray;
         private readonly BaseHashIntArray _increasingIntArray;
