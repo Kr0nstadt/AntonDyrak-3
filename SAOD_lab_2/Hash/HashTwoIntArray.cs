@@ -173,7 +173,7 @@ namespace Hash
         {
             int[] HashTable = new int[_hashTableSize];
             int h = 0;
-            int d = 2;
+            int d = 1;
             for (int i = 0; i < Data.Length; i++)
             {
                 h = Data[i] % _hashTableSize;
@@ -185,11 +185,12 @@ namespace Hash
                 else
                 {
                     int tmpH = (h + d) % _hashTableSize;
-
+                    d = 1;
                     while (tmpH != h && HashTable[tmpH] != 0)
                     {
                         _cal++;
-                        tmpH = (tmpH + d) % _hashTableSize;
+                        tmpH = (h + d * d) % _hashTableSize;
+                        ++d;
                     }
 
                     if (tmpH != h && tmpH < _hashTableSize && HashTable[tmpH] == 0)
