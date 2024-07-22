@@ -24,7 +24,6 @@ class MainClass
             {
                 while (fs.Read(author) != 0)
                 {
-                    //int count = fs.Read(author);
                     int count = fs.Read(title);
                     count = fs.Read(publisher);
                     yearPublish = br.ReadInt16();
