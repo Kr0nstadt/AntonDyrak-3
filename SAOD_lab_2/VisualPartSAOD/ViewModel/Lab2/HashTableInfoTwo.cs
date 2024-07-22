@@ -67,7 +67,20 @@ namespace VisualPartSAOD.ViewModel.Lab2
                 new HashArrayTableRowFirst(2, 20),
                 new HashArrayTableRowFirst(2, 21),
                 new HashArrayTableRowFirst(2, 22),
-                
+                new HashArrayTableRowFirst(2, 23),
+                new HashArrayTableRowFirst(2, 24),
+                new HashArrayTableRowFirst(2, 25),
+                new HashArrayTableRowFirst(2, 26),
+                new HashArrayTableRowFirst(2, 27),
+                new HashArrayTableRowFirst(2, 28),
+                new HashArrayTableRowFirst(2, 29),
+                new HashArrayTableRowFirst(2, 30),
+                new HashArrayTableRowFirst(2, 31),
+                new HashArrayTableRowFirst(2, 32),
+                new HashArrayTableRowFirst(2, 33),
+                new HashArrayTableRowFirst(2, 34),
+                new HashArrayTableRowFirst(2, 35),
+
             };
             _tableHashArrayFinal = new HashArrayTableRowTwo[]
             {
@@ -101,8 +114,8 @@ namespace VisualPartSAOD.ViewModel.Lab2
             }
            txt = $"Массив для создания хеш таблицы : \n" +
                 $"{array}\n" +
-                $"Длинна массива : 24\n" +
-                $"Размер хеш таблицы : 24";
+                $"Длинна массива : 23\n" +
+                $"Размер хеш таблицы : 23";
         }
         public static int key = 15;
         public string HashSearchViewModel => _SearchViewModel.ToString();

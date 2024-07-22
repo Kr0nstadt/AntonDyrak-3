@@ -21,7 +21,7 @@ namespace VisualPartSAOD.ViewModel.Lab2
 
 
         public static RandomIntArray random = new RandomIntArray(24);
-        private int size = 24;
+        private int size = 36;
         private readonly BaseHashIntArray _randomIntArray;
         private readonly BaseHashIntArray _increasingIntArray;
         private readonly BaseHashIntArray? _decreasingIntArray;
