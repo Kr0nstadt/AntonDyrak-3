@@ -39,9 +39,11 @@ class MainClass
                 }
             }
         }
+        ListBook.Sort();
         foreach(Book item in ListBook)
         {
             Console.WriteLine(item);
         }
+
     }
 }
