@@ -12,7 +12,7 @@ namespace SAOD_Kyrsach.DigitalSort
         {
             Queue<IByteGetter> queue = new Queue<IByteGetter>(list);
             const int nQueues = 256;
-            Queue<IByteGetter>[] tempQueues = new Queue<IByteGetter>[nQueues];//тут точно 256?
+            Queue<IByteGetter>[] tempQueues = new Queue<IByteGetter>[nQueues];//тут точно 256? Да, точно. Очередей должно быть по количеству чисел, которые можно представить в байте
             tempQueues = tempQueues.Select(q => new Queue<IByteGetter>()).ToArray();
             int maxBytesCount = queue.Max(x => x.CountByte);
             for (int i = 0; i < maxBytesCount; ++i)
@@ -20,7 +20,7 @@ namespace SAOD_Kyrsach.DigitalSort
                 while (queue.Count > 0)
                 {
                     IByteGetter qItem = queue.Dequeue();
-                    tempQueues[qItem.GetByte(i)].Enqueue(qItem);
+                    tempQueues[qItem.GetByte(maxBytesCount - i - 1)].Enqueue(qItem);
                 }
 
                 foreach (Queue<IByteGetter> q in tempQueues)
@@ -37,7 +37,6 @@ namespace SAOD_Kyrsach.DigitalSort
             foreach(IByteGetter byteGetter in queue)
             {
                 list.Add(byteGetter);
-                //Console.WriteLine(byteGetter.ToString());
             }
         }
     }
